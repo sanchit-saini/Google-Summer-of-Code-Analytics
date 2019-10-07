@@ -1,0 +1,373 @@
+org_name,slots
+"KDE
+",39
+"GNOME
+",35
+"Apache Software Foundation
+",33
+"Mozilla
+",25
+"Python Software Foundation
+",21
+"Debian Project
+",17
+"GNU Project
+",17
+"National Resource for Network Biology (NRNB)
+",17
+"R Project for Statistical Computing
+",17
+"OWASP Foundation
+",16
+"The Eclipse Foundation
+",16
+"Wikimedia
+",16
+"Apertium
+",15
+"Open Source Computer Vision Library (OpenCV)
+",15
+"The Linux Foundation
+",15
+"Computational Science and Engineering at TU Wien
+",14
+"FreeBSD
+",14
+"openSUSE
+",14
+"Systers, an Anita Borg Institute Community
+",13
+"Drupal
+",12
+"International Neuroinformatics Coordinating Facility
+",12
+"Mono Project
+",12
+"OpenMRS
+",12
+"Scala Team
+",12
+"CERN SFT
+",11
+"haskell.org
+",11
+"Portland State University
+",11
+"The Processing Foundation
+",11
+"BRL-CAD
+",10
+"LibreOffice
+",10
+"Sahana Software Foundation
+",10
+"SymPy
+",10
+"Clojure
+",9
+"FOSSASIA
+",9
+"Point Cloud Library (PCL)
+",9
+"strace
+",9
+"Sugar Labs
+",9
+"The OpenCog Foundation
+",9
+"The Tor Project and EFF
+",9
+"Boost C++ Libraries
+",8
+"Freifunk
+",8
+"Joomla! (Open Source Matters)
+",8
+"PRISM Model Checker
+",8
+"Shogun Machine Learning Toolbox
+",8
+"The Fedora Project 
+",8
+"Blender Foundation
+",7
+"Catrobat (formerly Catroid Project)
+",7
+"DBpedia & DBpedia Spotlight
+",7
+"lmonade: scientific software distribution
+",7
+"Mifos Initiative
+",7
+"Ruby on Rails
+",7
+"The CGAL Project 
+",7
+"TimVideos.us
+",7
+"Twitter
+",7
+"WorldForge
+",7
+"BeagleBoard.org
+",6
+"Inclusive Design Institute
+",6
+"Italian Mars Society
+",6
+"Open Bioinformatics Foundation
+",6
+"phpMyAdmin
+",6
+"QEMU
+",6
+"The OpenStack Foundation
+",6
+"wxWidgets
+",6
+"Battle for Wesnoth
+",5
+"BEAM Community
+",5
+"BioJavaScript
+",5
+"CiviCRM
+",5
+"Copyleft Games
+",5
+"GCC - GNU Compiler Collection
+",5
+"Haiku
+",5
+"Health Information Systems Programme
+",5
+"JBoss Community
+",5
+"Laboratory for Cosmological Data Mining
+",5
+"Liquid Galaxy Project
+",5
+"MetaBrainz Foundation Inc.
+",5
+"mlpack: scalable C++ machine learning library
+",5
+"Monkey Project
+",5
+"OGDF - Open Graph Drawing Framework
+",5
+"Open Source Robotics Foundation
+",5
+"Plan 9 from Bell Labs
+",5
+"Public Laboratory for Open Technology and Science
+",5
+"RTEMS Project
+",5
+"Sage Mathematical Software System
+",5
+"ScummVM
+",5
+"SuperTuxKart
+",5
+"Swathanthra Malayalam Computing
+",5
+"The OpenBSD Foundation
+",5
+"The Perl Foundation
+",5
+"The Wiselib
+",5
+"WSO2
+",5
+"52°North Initiative for Geospatial Open Source Software GmbH
+",4
+"AerospaceResearch.Net
+",4
+"Association Tatoeba
+",4
+"Biomedical Informatics, Emory University
+",4
+"Centre for Computational Medicine, SickKids Research Institute
+",4
+"CodeCombat
+",4
+"Ganglia
+",4
+"GNSS-SDR
+",4
+"GNU Radio
+",4
+"LabLua
+",4
+"LLVM Compiler Infrastructure
+",4
+"MariaDB
+",4
+"Mixxx DJ Software
+",4
+"MuseScore
+",4
+"Nmap Security Scanner
+",4
+"PostgreSQL Project
+",4
+"Project Tox
+",4
+"Raxa
+",4
+"Ruby Science Foundation (SciRuby)
+",4
+"TEAMMATES Project @ National University of Singapore
+",4
+"The ns-3 Network Simulator Project
+",4
+"The syslog-ng project
+",4
+"WordPress
+",4
+"X.Org Foundation
+",4
+"Amahi
+",3
+"Bio4j
+",3
+"BuildmLearn
+",3
+"BumbleBee Autonomous Underwater Vehicle (BBAUV)
+",3
+"CCExtractor development
+",3
+"Checkstyle
+",3
+"coreboot
+",3
+"Crystal Space
+",3
+"Dr. Memory
+",3
+"Freenet Project Inc
+",3
+"Gentoo Foundation
+",3
+"GNU Octave
+",3
+"Google Open Source Programs Office
+",3
+"Jitsi
+",3
+"jMonkeyEngine
+",3
+"Melange
+",3
+"Netfilter Project
+",3
+"Oregon State University Open Source Lab (OSUOSL)
+",3
+"OSv
+",3
+"phpBB Forum Software
+",3
+"RouteFlow
+",3
+"Samba
+",3
+"Scaffold Hunter
+",3
+"Sigmah
+",3
+"The Julia Language
+",3
+"The MacPorts Project
+",3
+"The Privly Foundation
+",3
+"The Wine Project
+",3
+"TYPO3 Association
+",3
+"Visualization Toolkit (VTK)
+",3
+"appleseed
+",2
+"Arches Project
+",2
+"Bookie
+",2
+"Ceph
+",2
+"CodeMirror
+",2
+"Crypto Stick
+",2
+"Django Software Foundation
+",2
+"Flowgrammable
+",2
+"Gambit: Software Tools for Game Theory
+",2
+"Ganeti
+",2
+"Git
+",2
+"Grameen Foundation - MOTECH
+",2
+"Groovy Community
+",2
+"Inkscape
+",2
+"Institute for Artificial Intelligence
+",2
+"KolibriOS Project Team
+",2
+"LEAP Encryption Access Project
+",2
+"Linaro
+",2
+"LyX – The Document Processor 
+",2
+"Moodle
+",2
+"Open Lighting Project
+",2
+"Open Motion Planning Library
+",2
+"OpenKeychain (OpenPGP for Android)
+",2
+"oVirt
+",2
+"Plone Foundation
+",2
+"Steel Bank Common Lisp
+",2
+"Stratosphere Project
+",2
+"Subsurface
+",2
+"SyncDiff(erent)
+",2
+"The Concord Consortium
+",2
+"The STE||AR Group
+",2
+"ThinkUp
+",2
+"Xapian Search Engine Library
+",2
+"Benetech
+",1
+"Buildbot
+",1
+"Frenetic
+",1
+"HelenOS group at Department of Distributed and Dependable Systems, Charles University in Prague
+",1
+"Linux Trace Toolkit next generation project (LTTng)
+",1
+"NetSurf
+",1
+"Open Education Resource Foundation
+",1
+"OSGeo - Open Source Geospatial Foundation
+",1
+"Software Freedom Conservancy, Inc.
+",1
