@@ -17,7 +17,7 @@ class Scrapper:
         self.yearSupport = yearSupport
         self.logHelper.debugLog('Initialized :' + self.baseUrl)
 
-    def initSelectos(self, **kwds):
+    def initSelectors(self, **kwds):
 
         if self.yearSupport.checkYearSupport(self.year):
             self.master_ul = kwds['master_ul']
@@ -170,7 +170,7 @@ def main(argv):
         }
 
     sp = Scrapper(dict['baseUrl'], year, logHelper, yearSupport)
-    sp.initSelectos(**dict)
+    sp.initSelectors(**dict)
     sp.setSoup(dict['url'])
     links = sp.getOrganizationLinks()
     dbHelper = DatabaseHelper()
