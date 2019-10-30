@@ -80,7 +80,7 @@ class Scrapper:
             for li in ul.find_all('li'):
                 technologies.append(li.get_text())
 
-            return str(technologies)
+            return ','.join(technologies)
         return ''
 
     def get_organization_slot_count(self):
