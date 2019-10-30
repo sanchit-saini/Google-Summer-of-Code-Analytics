@@ -1,30 +1,30 @@
 class YearSupport:
 
-    startYear = 2009
-    endYear = 2019
-    oldYear = 2015
+    start_year = 2009
+    end_year = 2019
+    old_year = 2015
 
-    def getStartYear(self):
-        return self.startYear
+    def get_start_year(self):
+        return self.start_year
 
-    def getEndYear(self):
-        return self.endYear
+    def get_end_year(self):
+        return self.end_year
 
-    def getOldYear(self):
-        return self.oldYear
+    def get_old_year(self):
+        return self.old_year
 
-    def getYearRange(self):
-        return str(self.startYear) + '-' + str(self.endYear)
+    def get_year_range(self):
+        return str(self.start_year) + '-' + str(self.end_year)
 
-    def checkYear(self, year):
-        if year >= self.startYear and year <= self.endYear:
+    def check_year(self, year):
+        if year >= self.start_year and year <= self.end_year:
             return year
 
         return None
 
-    def checkYearSupport(self, year):
-        if year >= self.startYear and year <= self.oldYear:
+    def check_year_support(self, year):
+        if year >= self.start_year and year <= self.old_year:
             return True
 
-        elif year > self.oldYear and year <= self.endYear:
+        elif year > self.old_year and year <= self.end_year:
             return False
