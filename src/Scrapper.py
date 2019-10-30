@@ -2,7 +2,6 @@
 import sys
 import getopt
 import logging
-from YearSupport import *
 from DatabaseHelper import *
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
@@ -12,27 +11,16 @@ logger = logging.getLogger(__name__)
 
 class Scrapper:
 
-    def __init__(self, base_url, year, year_support):
+    def __init__(self, base_url, year):
         self.year = int(year)
         self.base_url = base_url
-        self.year_support = year_support
         logger.info('Initialized base URL : %s', self.base_url)
 
     def init_selectors(self, **kwds):
-
-        if self.year_support.check_year_support(self.year):
-            self.master_ul = kwds['master_ul']
-            self.organization_name = kwds['organization_name']
-            self.organization_slots_ul = kwds['organization_slots_ul']
-
-        else:
-            self.master_ul = kwds['master_ul']
-            self.organization_name = kwds['organization_name']
-            self.organization_slots_ul = kwds['organization_slots_ul']
-            self.organization_tagline = kwds['organization_tagline']
-            self.organization_technologies_ul = kwds['organization_technologies_ul']
-
-        logger.info('Selectors Initialized')
+        self.selectors = kwds
+        logger.info('Initialized Selectors')
+        for key in self.selectors:
+            logger.info('%s : %s', key, self.selectors[key])
 
     def set_soup(self, url):
 
@@ -48,7 +36,7 @@ class Scrapper:
     def get_organization_links(self):
         links = []
 
-        ul = self.soup.select_one(self.master_ul)
+        ul = self.soup.select_one(self.selectors['master_ul'])
         logger.info('Iterating organization li tags and parsing href')
         
         for li in ul.find_all('li'):
@@ -63,60 +51,57 @@ class Scrapper:
 
             self.set_soup(link)
 
-            if self.year_support.check_year_support(self.year):
-                db_insert(
-                    name=self.get_orgnization_name(),
-                    slots=str(self.get_organization_slot_count()),
-                    year=self.year
-                )
-                logger.info('\nName: %s\nSlots: %s\nYear: %d\n',
-                             self.get_orgnization_name(), self.get_organization_slot_count(), self.year)
-
-            else:
-                db_insert(
-                    name=self.get_orgnization_name(),
-                    tagline=self.get_orgnization_tagline(),
-                    technologies=self.get_organization_technologies(),
-                    year=self.year,
-                    slots=self.get_organization_slot_count()
-                )
-                logger.info('\nName: %s\nTagline: %s\nTechnologies: %s\nSlots: %s\nYear: %d\n',
-                             self.get_orgnization_name(), self.get_orgnization_tagline(),
-                             self.get_organization_technologies(), self.get_organization_slot_count(),
-                             self.year)
+            db_insert(
+                name=self.get_orgnization_name(),
+                tagline=self.get_orgnization_tagline(),
+                technologies=self.get_organization_technologies(),
+                year=self.year,
+                slots=self.get_organization_slot_count()
+            )
+            logger.info('\nName: %s\nTagline: %s\nTechnologies: %s\nSlots: %d\nYear: %d\n',
+                            self.get_orgnization_name(), self.get_orgnization_tagline(),
+                            self.get_organization_technologies(), self.get_organization_slot_count(),
+                            self.year)
 
     def get_orgnization_name(self):
-        return self.soup.select_one(self.organization_name).get_text()
+        return self.soup.select_one(self.selectors['organization_name']).get_text()
 
     def get_orgnization_tagline(self):
-        return self.soup.select_one(self.organization_tagline).get_text()
+        if 'organization_tagline' in self.selectors:
+            return self.soup.select_one(self.selectors['organization_tagline']).get_text()
+        return ''
 
     def get_organization_technologies(self):
-        technologies = []
+        if 'organization_technologies_ul' in self.selectors:
+            technologies = []
 
-        ul = self.soup.select_one(self.organization_technologies_ul)
+            ul = self.soup.select_one(self.selectors['organization_technologies_ul'])
 
-        for li in ul.find_all('li'):
-            technologies.append(li.get_text())
+            for li in ul.find_all('li'):
+                technologies.append(li.get_text())
 
-        return str(technologies)
+            return str(technologies)
+        return ''
 
     def get_organization_slot_count(self):
-        ul = self.soup.select_one(self.organization_slots_ul)
-        return str(len(ul.find_all('li')))
+        ul = self.soup.select_one(self.selectors['organization_slots_ul'])
+        return len(ul.find_all('li'))
 
 
 def main(argv):
 
-    year_support = YearSupport()
-    year = None
+    year = 0
+    old_base_url_start_year = 2009
+    old_base_url_end_year = 2015
+    new_base_url_end_year = 2019
 
     def usage_msg():
-        return 'Usage: ' + argv[0] + ''' [Options]\n
-     Options:\n
-     -h,--help show this help message and exit\n
-     -d, --debug activate debug mode\n
-     -y, --year=XXXX set year to scrap data, year should be between [''' + year_support.get_year_range() + ']'
+        return '''\nUsage: {}  [Options]\n
+            Options:\n
+            -h,--help show this help message and exit\n
+            -d, --debug activate debug mode\n
+            -y, --year=XXXX set year to scrap data, year should be between [ {} - {} ]'''\
+        .format(argv[0], old_base_url_start_year, new_base_url_end_year)
 
     try:
         opts, args = getopt.getopt(argv[1:], 'hdy:', ['debug', 'year=', 'help'])
@@ -127,25 +112,26 @@ def main(argv):
     for opt, arg in opts:
         if opt == '-h':
             print(usage_msg())
+            exit(0)
 
         elif opt in ('-d', '--debug'):
             logger.setLevel(logging.DEBUG)
 
         elif opt in ('-y', '--year'):
-            year = arg
+            year = int(arg)
 
-    if year == None:
+    if year == 0:
         logger.warning(usage_msg())
         exit(0)
 
-    if year_support.check_year(int(year)) == None:
-        logger.warning('Out of year range: %s\nSupported year range : %s', year, year_support.get_year_range())
+    if year < old_base_url_start_year or year > new_base_url_end_year:
+        logger.warning('\nOut of year range: %s\nSupported year range : %d - %d', year, old_base_url_start_year, new_base_url_end_year )
         exit(1)
 
-    if year_support.check_year_support(int(year)):
+    if year >= old_base_url_start_year and year <= old_base_url_end_year:
         selectors = {
             'base_url': 'https://www.google-melange.com',
-            'url': 'https://www.google-melange.com/archive/gsoc/' + year,
+            'url': 'https://www.google-melange.com/archive/gsoc/{}'.format(year),
             'master_ul': 'body > div > main > div > div.main.mdl-cell.mdl-cell--8-col.mdl-card.mdl-shadow--4dp > ul.mdl-list',
             'organization_name': 'body > div > main > div > div.main.mdl-cell.mdl-cell--8-col.mdl-card.mdl-shadow--4dp > h3',
             'organization_slots_ul': 'body > div > main > div > div.main.mdl-cell.mdl-cell--8-col.mdl-card.mdl-shadow--4dp > ul'
@@ -154,7 +140,7 @@ def main(argv):
     else:
         selectors = {
             'base_url': 'https://summerofcode.withgoogle.com',
-            'url': 'https://summerofcode.withgoogle.com/archive/' + year + '/organizations/',
+            'url': 'https://summerofcode.withgoogle.com/archive/{}/organizations/'.format(year),
             'master_ul': 'body > main > section > div > ul',
             'organization_name': 'body > div > div > div > h3',
             'organization_slots_ul': '#projects > div > ul',
@@ -162,7 +148,7 @@ def main(argv):
             'organization_technologies_ul': 'body > main > section.page-organizations-detail__details > div > div > div:nth-child(2) > md-card > div > div:nth-child(4) > ul'
         }
 
-    sp = Scrapper(selectors['base_url'], year, year_support)
+    sp = Scrapper(selectors['base_url'], year)
     sp.init_selectors(**selectors)
     sp.set_soup(selectors['url'])
 
