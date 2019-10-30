@@ -143,7 +143,7 @@ def main(argv):
         exit(1)
 
     if yearSupport.checkYearSupport(int(year)):
-        dict = {
+        selectors = {
             'baseUrl': 'https://www.google-melange.com',
             'url': 'https://www.google-melange.com/archive/gsoc/' + year,
             'master_ul': 'body > div > main > div > div.main.mdl-cell.mdl-cell--8-col.mdl-card.mdl-shadow--4dp > ul.mdl-list',
@@ -152,7 +152,7 @@ def main(argv):
         }
 
     else:
-        dict = {
+        selectors = {
             'baseUrl': 'https://summerofcode.withgoogle.com',
             'url': 'https://summerofcode.withgoogle.com/archive/' + year + '/organizations/',
             'master_ul': 'body > main > section > div > ul',
@@ -162,9 +162,9 @@ def main(argv):
             'organization_technologies_ul': 'body > main > section.page-organizations-detail__details > div > div > div:nth-child(2) > md-card > div > div:nth-child(4) > ul'
         }
 
-    sp = Scrapper(dict['baseUrl'], year, yearSupport)
-    sp.initSelectors(**dict)
-    sp.setSoup(dict['url'])
+    sp = Scrapper(selectors['baseUrl'], year, yearSupport)
+    sp.initSelectors(**selectors)
+    sp.setSoup(selectors['url'])
     links = sp.getOrganizationLinks()
     dbHelper = DatabaseHelper()
     sp.forEachOrganization(links, dbInsert=dbHelper.insert, setSoup=sp.setSoup)
