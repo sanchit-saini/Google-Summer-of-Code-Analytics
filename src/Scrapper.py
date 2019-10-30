@@ -55,16 +55,16 @@ class Scrapper:
             links.append(li.find('a').get('href'))
         return links
 
-    def for_each_organization(self, links, **action):
+    def for_each_organization(self, links, db_insert):
 
         logger.info('Parsing and Inserting individual record into DB')
         for index in range(0, len(links)):
             link = self.base_url + links[index]
 
-            action['set_soup'](link)
+            self.set_soup(link)
 
             if self.year_support.check_year_support(self.year):
-                action['db_insert'](
+                db_insert(
                     name=self.get_orgnization_name(),
                     slots=str(self.get_organization_slot_count()),
                     year=self.year
@@ -73,7 +73,7 @@ class Scrapper:
                              self.get_orgnization_name(), self.get_organization_slot_count(), self.year)
 
             else:
-                action['db_insert'](
+                db_insert(
                     name=self.get_orgnization_name(),
                     tagline=self.get_orgnization_tagline(),
                     technologies=self.get_organization_technologies(),
@@ -165,9 +165,10 @@ def main(argv):
     sp = Scrapper(selectors['base_url'], year, year_support)
     sp.init_selectors(**selectors)
     sp.set_soup(selectors['url'])
+
     links = sp.get_organization_links()
     db_helper = DatabaseHelper()
-    sp.for_each_organization(links, db_insert=db_helper.insert, set_soup=sp.set_soup)
+    sp.for_each_organization(links, db_helper.insert)
 
 
 if __name__ == '__main__':
