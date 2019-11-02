@@ -1,267 +1,135 @@
-org_name,slots
-"Python Software Foundation
-",62
-"Apache Software Foundation
-",47
-"KDE
-",36
-"R Project for Statistical Computing
-",23
-"GNOME
-",22
-"Systers, an Anita Borg Institute Community
-",22
-"haskell.org
-",18
-"FOSSASIA
-",17
-"Debian Project
-",15
-"The Eclipse Foundation
-",15
-"FreeBSD
-",14
-"Open Source Computer Vision Library (OpenCV)
-",14
-"OpenMRS
-",14
-"The OpenCog Foundation
-",14
-"The Processing Foundation
-",14
-"Mono Project
-",13
-"OSGeo - Open Source Geospatial Foundation
-",13
-"GNU Project
-",12
-"International Neuroinformatics Coordinating Facility
-",12
-"JdeRobot - Universidad Rey Juan Carlos
-",12
-"Portland State University
-",11
-"JBoss Community
-",10
-"LibreOffice
-",10
-"Drupal
-",9
-"RTEMS Project
-",9
-"WSO2
-",9
-"CiviCRM
-",8
-"Copyleft Games
-",8
-"DBpedia & DBpedia Spotlight
-",8
-"MEDES-IMPS
-",8
-"Scala Team
-",8
-"Tox
-",8
-"Wikimedia Foundation
-",8
-"BeagleBoard.org
-",7
-"Boost C++ Libraries
-",7
-"CCExtractor development
-",7
-"FFmpeg
-",7
-"Network Time Foundation
-",7
-"OpenStreetMap
-",7
-"Openwall
-",7
-"QEMU
-",7
-"The Honeynet Project
-",7
-"52°North Initiative for Geospatial Open Source Software GmbH
-",6
-"BuildmLearn
-",6
-"CentOS Project
-",6
-"GNSS-SDR
-",6
-"LabLua
-",6
-"Liquid Galaxy Project
-",6
-"MIT Media Lab
-",6
-"Open Source Robotics Foundation
-",6
-"Ruby
-",6
-"Ruby on Rails
-",6
-"TEAMMATES @ National University of Singapore
-",6
-"The Visualization Toolkit
-",6
-"ASCEND
-",5
-"BEAM Community
-",5
-"BRL-CAD
-",5
-"CERN SFT
-",5
-"Clojure
-",5
-"GitHub
-",5
-"lmonade: scientific software distribution
-",5
-"Nmap Security Scanner
-",5
-"Pidgin, Finch, and libpurple
-",5
-"Ruby Science Foundation
-",5
-"Sage Mathematical Software System
-",5
-"Sugar Labs
-",5
-"The Fedora Project
-",5
-"The OpenBSD Foundation
-",5
-"The STE||AR Group
-",5
-"Tux4Kids
-",5
-"X.Org Foundation
-",5
-"Biomedical Informatics, Emory University
-",4
-"Buildbot
-",4
-"International GeoGebra Institute
-",4
-"lowRISC
-",4
-"MetaBrainz Foundation Inc.
-",4
-"phpMyAdmin
-",4
-"Privly Foundation
-",4
-"RoboComp
-",4
-"RouteFlow
-",4
-"Scilab Enterprises
-",4
-"The ns-3 Network Simulator Project
-",4
-"The syslog-ng project
-",4
-"The Wine Project
-",4
-"Bika Open Source LIMS Collective
-",3
-"Boston University / XIA
-",3
-"Ceph Storage
-",3
-"Cesium Community
-",3
-"CloudCV
-",3
-"Department of Biomedical Informatics, Stony Brook University
-",3
-"Foundation for Learning Equality
-",3
-"Global Alliance for Genomics & Health
-",3
-"GNU Mailman
-",3
-"Google Kubernetes
-",3
-"Interactive Spaces
-",3
-"IP-over-P2P Project
-",3
-"jQuery Foundation
-",3
-"LLVM Compiler Infrastructure
-",3
-"MariaDB
-",3
-"MinnowBoard Project
-",3
-"NumFOCUS
-",3
-"OncoBlocks
-",3
-"Oregon State University Open Source Lab (OSUOSL)
-",3
-"P2PSP.org
-",3
-"Pencil Code Foundation
-",3
-"PLASMA @ UMass
-",3
-"Portable Native Client
-",3
-"Red Hen Lab
-",3
-"RIOT
-",3
-"Rspamd spam filtering system
-",3
-"Saros
-",3
-"Sustainable Computing Research Group ( SCoRe )
-",3
-"University of Nebraska - Helikar Lab
-",3
-"XBMC Foundation
-",3
-"Africa Soil Information Service
-",2
-"coreboot
-",2
-"Encyclopedia of Life
-",2
-"GCC - GNU Compiler Collection
-",2
-"Git
-",2
-"HPCC Systems®
-",2
-"Institute for Artificial Intelligence
-",2
-"Moodle
-",2
-"OpenKeychain (OpenPGP for Android)
-",2
-"PostgreSQL Project
-",2
-"Subsurface
-",2
-"TARDIS SN
-",2
-"The MacPorts Project
-",2
-"Xiph.Org Foundation
-",2
-"Ganeti
-",1
-"MBDyn, Department of Aerospace Engineering at the Polytechnic University of Milan
-",1
-"PaGMO / PyKEP
-",1
-"strace
-",1
-"The Concord Consortium
-",1
+name,tagline,technologies,slots,year
+"Python Software Foundation","","",62,2015
+"Apache Software Foundation","","",47,2015
+KDE,"","",36,2015
+"R Project for Statistical Computing","","",23,2015
+GNOME,"","",22,2015
+"Systers, an Anita Borg Institute Community","","",22,2015
+haskell.org,"","",18,2015
+FOSSASIA,"","",17,2015
+"Debian Project","","",15,2015
+"The Eclipse Foundation","","",15,2015
+FreeBSD,"","",14,2015
+"Open Source Computer Vision Library (OpenCV)","","",14,2015
+OpenMRS,"","",14,2015
+"The OpenCog Foundation","","",14,2015
+"The Processing Foundation","","",14,2015
+"Mono Project","","",13,2015
+"OSGeo - Open Source Geospatial Foundation","","",13,2015
+"GNU Project","","",12,2015
+"International Neuroinformatics Coordinating Facility","","",12,2015
+"JdeRobot - Universidad Rey Juan Carlos","","",12,2015
+"Portland State University","","",11,2015
+"JBoss Community","","",10,2015
+LibreOffice,"","",10,2015
+Drupal,"","",9,2015
+"RTEMS Project","","",9,2015
+WSO2,"","",9,2015
+CiviCRM,"","",8,2015
+"Copyleft Games","","",8,2015
+"DBpedia & DBpedia Spotlight","","",8,2015
+MEDES-IMPS,"","",8,2015
+"Scala Team","","",8,2015
+Tox,"","",8,2015
+"Wikimedia Foundation","","",8,2015
+BeagleBoard.org,"","",7,2015
+"Boost C++ Libraries","","",7,2015
+"CCExtractor development","","",7,2015
+FFmpeg,"","",7,2015
+"Network Time Foundation","","",7,2015
+OpenStreetMap,"","",7,2015
+Openwall,"","",7,2015
+QEMU,"","",7,2015
+"The Honeynet Project","","",7,2015
+"52°North Initiative for Geospatial Open Source Software GmbH","","",6,2015
+BuildmLearn,"","",6,2015
+"CentOS Project","","",6,2015
+GNSS-SDR,"","",6,2015
+LabLua,"","",6,2015
+"Liquid Galaxy Project","","",6,2015
+"MIT Media Lab","","",6,2015
+"Open Source Robotics Foundation","","",6,2015
+Ruby,"","",6,2015
+"Ruby on Rails","","",6,2015
+"TEAMMATES @ National University of Singapore","","",6,2015
+"The Visualization Toolkit","","",6,2015
+"XMPP Standards Foundation","","",6,2015
+ASCEND,"","",5,2015
+"BEAM Community","","",5,2015
+BRL-CAD,"","",5,2015
+"CERN SFT","","",5,2015
+Clojure,"","",5,2015
+GitHub,"","",5,2015
+"lmonade: scientific software distribution","","",5,2015
+"Nmap Security Scanner","","",5,2015
+"Pidgin, Finch, and libpurple","","",5,2015
+"Ruby Science Foundation","","",5,2015
+"Sage Mathematical Software System","","",5,2015
+"Sugar Labs","","",5,2015
+"The Fedora Project","","",5,2015
+"The OpenBSD Foundation","","",5,2015
+"The STE||AR Group","","",5,2015
+Tux4Kids,"","",5,2015
+"X.Org Foundation","","",5,2015
+"Biomedical Informatics, Emory University","","",4,2015
+Buildbot,"","",4,2015
+"International GeoGebra Institute","","",4,2015
+lowRISC,"","",4,2015
+"MetaBrainz Foundation Inc.","","",4,2015
+phpMyAdmin,"","",4,2015
+"Privly Foundation","","",4,2015
+RoboComp,"","",4,2015
+RouteFlow,"","",4,2015
+"Scilab Enterprises","","",4,2015
+"The ns-3 Network Simulator Project","","",4,2015
+"The syslog-ng project","","",4,2015
+"The Wine Project","","",4,2015
+"Bika Open Source LIMS Collective","","",3,2015
+"Boston University / XIA","","",3,2015
+"Ceph Storage","","",3,2015
+"Cesium Community","","",3,2015
+CloudCV,"","",3,2015
+"Department of Biomedical Informatics, Stony Brook University","","",3,2015
+"Foundation for Learning Equality","","",3,2015
+"Global Alliance for Genomics & Health","","",3,2015
+"GNU Mailman","","",3,2015
+"Google Kubernetes","","",3,2015
+"Interactive Spaces","","",3,2015
+"IP-over-P2P Project","","",3,2015
+"jQuery Foundation","","",3,2015
+"LLVM Compiler Infrastructure","","",3,2015
+MariaDB,"","",3,2015
+"MinnowBoard Project","","",3,2015
+NumFOCUS,"","",3,2015
+OncoBlocks,"","",3,2015
+"Oregon State University Open Source Lab (OSUOSL)","","",3,2015
+P2PSP.org,"","",3,2015
+"Pencil Code Foundation","","",3,2015
+"PLASMA @ UMass","","",3,2015
+"Portable Native Client","","",3,2015
+"Red Hen Lab","","",3,2015
+RIOT,"","",3,2015
+"Rspamd spam filtering system","","",3,2015
+Saros,"","",3,2015
+"Sustainable Computing Research Group ( SCoRe )","","",3,2015
+"University of Nebraska - Helikar Lab","","",3,2015
+"XBMC Foundation","","",3,2015
+"Africa Soil Information Service","","",2,2015
+coreboot,"","",2,2015
+"Encyclopedia of Life","","",2,2015
+"GCC - GNU Compiler Collection","","",2,2015
+Git,"","",2,2015
+"HPCC Systems®","","",2,2015
+"Institute for Artificial Intelligence","","",2,2015
+Moodle,"","",2,2015
+"OpenKeychain (OpenPGP for Android)","","",2,2015
+"PostgreSQL Project","","",2,2015
+Subsurface,"","",2,2015
+"TARDIS SN","","",2,2015
+"The MacPorts Project","","",2,2015
+"Xiph.Org Foundation","","",2,2015
+Ganeti,"","",1,2015
+"MBDyn, Department of Aerospace Engineering at the Polytechnic University of Milan","","",1,2015
+"PaGMO / PyKEP","","",1,2015
+strace,"","",1,2015
+"The Concord Consortium","","",1,2015

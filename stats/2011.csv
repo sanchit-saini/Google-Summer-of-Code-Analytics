@@ -1,345 +1,174 @@
-org_name,slots
-"KDE
-",47
-"Apache Software Foundation
-",35
-"Python Software Foundation
-",30
-"GNOME Project
-",24
-"OSGeo - Open Source Geospatial Foundation
-",19
-"The Eclipse Foundation
-",16
-"Blender Foundation
-",15
-"Drupal
-",15
-"OpenMRS
-",15
-"Gentoo Foundation
-",14
-"FreeBSD
-",13
-"Mono Project
-",13
-"openSUSE Project
-",13
-"The Honeynet Project
-",12
-"The Linux Foundation
-",12
-"VideoLAN
-",12
-"Mozilla
-",11
-"Portland State University
-",11
-"The Java Pathfinder Team
-",11
-"Inclusive Design Institute (IDI)
-",10
-"Point Cloud Library (PCL)
-",10
-"Apertium
-",9
-"Boost C++ Libraries
-",9
-"Code for America
-",9
-"freifunk
-",9
-"GNU Project 
-",9
-"Open Source Computer Vision Library (OpenCV)
-",9
-"SymPy
-",9
-"The Globus Alliance
-",9
-"FFmpeg / Libav
-",8
-"National Evolutionary Synthesis Center (NESCent)
-",8
-"National Resource for Network Biology (GenMAPP, Cytoscape and WikiPathways)
-",8
-"RTEMS Project
-",8
-"The NetBSD Foundation
-",8
-"WordPress
-",8
-"WorldForge
-",8
-"Center for the Study of Complex Systems, University of Michigan
-",7
-"Debian Project
-",7
-"Electronic Frontier Foundation/The Tor Project
-",7
-"Gephi Consortium
-",7
-"International GeoGebra Institute
-",7
-"LibreOffice
-",7
-"phpMyAdmin
-",7
-"Scilab
-",7
-"Tcl/Tk Community
-",7
-"The Battle for Wesnoth
-",7
-"The LLVM Compiler Infrastructure
-",7
-"Umit Project
-",7
-"Wikimedia Foundation
-",7
-"ASCEND
-",6
-"Crystal Space
-",6
-"darktable
-",6
-"haskell.org
-",6
-"Open Bioinformatics Foundation
-",6
-"PostgreSQL Global Development Group
-",6
-"Sahana Software Foundation
-",6
-"Xen.org
-",6
-"CGAL - Computational Geometry Algorithms Library
-",5
-"DragonFly BSD
-",5
-"DuraSpace
-",5
-"Git
-",5
-"GNU Image Manipulation Program
-",5
-"Haiku
-",5
-"Nmap Security Scanner
-",5
-"Parrot Foundation
-",5
-"Shogun Machine Learning Toolbox (Technical University Berlin / Max Planck Campus Tübingen)
-",5
-"The Fedora Project
-",5
-"The Perl Foundation
-",5
-"TYPO3 Association
-",5
-"AbiWord
-",4
-"Atomic Blue
-",4
-"BlueZ
-",4
-"Catroid Project
-",4
-"CERN Virtual Machine (CernVM)
-",4
-"coreboot
-",4
-"Ecole Polytechnique Federale de Lausanne, Scala Team
-",4
-"Evergreen Project
-",4
-"FiberCorps
-",4
-"GCC, the GNU Compiler Collection
-",4
-"GStreamer
-",4
-"Helsinki Institute for Information Technology
-",4
-"illumos
-",4
-"Jato VM
-",4
-"Jikes RVM
-",4
-"K-9 Mail
-",4
-"LimeSurvey
-",4
-"MINIX 3 Research group at the Vrije Universiteit in Amsterdam, The Netherlands
-",4
-"NTP
-",4
-"OGRE - Open Source 3D Graphics Engine
-",4
-"QEMU.org
-",4
-"ReactOS
-",4
-"Samba
-",4
-"StatusNet
-",4
-"The Codehaus
-",4
-"Tianocore
-",4
-"Unknown Horizons
-",4
-"Wine
-",4
-"X.Org Foundation
-",4
-"XMMS2 - X-platform Music Multiplexing System 2
-",4
-"XMPP Standards Foundation
-",4
-"Climate Code Foundation
-",3
-"Computational Science and Engineering at TU Wien
-",3
-"Digital Mars
-",3
-"Django Software Foundation
-",3
-"Drizzle
-",3
-"FOSSASIA
-",3
-"FreedroidRPG
-",3
-"Genome Informatics
-",3
-"HelenOS group at Department of Distributed and Dependable Systems, Charles University in Prague
-",3
-"Inkscape
-",3
-"Interface Ecology Lab @ Texas A&M University
-",3
-"Jitsi (SIP Communicator), Kamailio and SEMS
-",3
-"Kernel.org - the Linux Kernel Organization
-",3
-"Liquid Galaxy Project
-",3
-"Marine Biological Laboratory - Center for Library and Informatics
-",3
-"Melange
-",3
-"Mixxx
-",3
-"MoinMoin
-",3
-"Moodle
-",3
-"Natural User Interface Group
-",3
-"OpenImageIO
-",3
-"OpenNMS
-",3
-"OpenStreetMap
-",3
-"Openwall Project
-",3
-"Orange – Data Mining Fruitful & Fun
-",3
-"Plone Foundation
-",3
-"R Project for Statistical Computing 
-",3
-"Review Board
-",3
-"Sakai Project
-",3
-"The Gambit Project
-",3
-"The MacPorts Project
-",3
-"Theoretical Biophysics @ Humboldt University
-",3
-"wxWidgets
-",3
-"Astrometry.net
-",2
-"BRL-CAD
-",2
-"Buildbot
-",2
-"CMUSphinx Speech Recognition Toolkit
-",2
-"Connexions
-",2
-"DokuWiki
-",2
-"Elgg
-",2
-"Etherboot Project
-",2
-"fluxbox
-",2
-"Freeseer video recording and streaming suite
-",2
-"GnuCash Free Accounting Software
-",2
-"Google Open Source Programs Office
-",2
-"Grassroots DICOM
-",2
-"International Neuroinformatics Coordinating Facility
-",2
-"Komodo OpenLab Inc.
-",2
-"LanguageTool
-",2
-"Learning Unlimited
-",2
-"Mapnik
-",2
-"MetaBrainz Foundation Inc.
-",2
-"OpenICC Color Management
-",2
-"OpenIntents
-",2
-"Processing
-",2
-"Rockbox
-",2
-"Scribus Team
-",2
-"Selenium
-",2
-"Sencha Labs
-",2
-"SETI Institute
-",2
-"Visualization Toolkit (VTK)
-",2
-"Xapian Search Engine Library
-",2
-"Freenet Project Inc
-",1
-"Hedgewars Project
-",1
-"Hugin - Panorama photo stitcher
-",1
-"Isabelle
-",1
-"Oregon State University Open Source Lab (OSUOSL)
-",1
-"Plan 9 from Bell Labs
-",1
-"ScummVM
-",1
-"Simple DirectMedia Layer
-",1
-"Sunlight Labs
-",1
-"Universal Subtitles
-",1
+name,tagline,technologies,slots,year
+KDE,"","",47,2011
+"Apache Software Foundation","","",35,2011
+"Python Software Foundation","","",30,2011
+"GNOME Project","","",24,2011
+"OSGeo - Open Source Geospatial Foundation","","",19,2011
+"The Eclipse Foundation","","",16,2011
+"Blender Foundation","","",15,2011
+Drupal,"","",15,2011
+OpenMRS,"","",15,2011
+"Gentoo Foundation","","",14,2011
+FreeBSD,"","",13,2011
+"Mono Project","","",13,2011
+"openSUSE Project","","",13,2011
+"The Honeynet Project","","",12,2011
+"The Linux Foundation","","",12,2011
+VideoLAN,"","",12,2011
+Mozilla,"","",11,2011
+"Portland State University","","",11,2011
+"The Java Pathfinder Team","","",11,2011
+"Inclusive Design Institute (IDI)","","",10,2011
+"Point Cloud Library (PCL)","","",10,2011
+Apertium,"","",9,2011
+"Boost C++ Libraries","","",9,2011
+"Code for America","","",9,2011
+freifunk,"","",9,2011
+"GNU Project ","","",9,2011
+"Open Source Computer Vision Library (OpenCV)","","",9,2011
+SymPy,"","",9,2011
+"The Globus Alliance","","",9,2011
+"FFmpeg / Libav","","",8,2011
+"National Evolutionary Synthesis Center (NESCent)","","",8,2011
+"National Resource for Network Biology (GenMAPP, Cytoscape and WikiPathways)","","",8,2011
+"RTEMS Project","","",8,2011
+"The NetBSD Foundation","","",8,2011
+WordPress,"","",8,2011
+WorldForge,"","",8,2011
+"Center for the Study of Complex Systems, University of Michigan","","",7,2011
+"Debian Project","","",7,2011
+"Electronic Frontier Foundation/The Tor Project","","",7,2011
+"Gephi Consortium","","",7,2011
+"International GeoGebra Institute","","",7,2011
+LibreOffice,"","",7,2011
+phpMyAdmin,"","",7,2011
+Scilab,"","",7,2011
+"Tcl/Tk Community","","",7,2011
+"The Battle for Wesnoth","","",7,2011
+"The LLVM Compiler Infrastructure","","",7,2011
+"Umit Project","","",7,2011
+"Wikimedia Foundation","","",7,2011
+ASCEND,"","",6,2011
+"Crystal Space","","",6,2011
+darktable,"","",6,2011
+haskell.org,"","",6,2011
+"Open Bioinformatics Foundation","","",6,2011
+"PostgreSQL Global Development Group","","",6,2011
+"Sahana Software Foundation","","",6,2011
+Xen.org,"","",6,2011
+"CGAL - Computational Geometry Algorithms Library","","",5,2011
+"DragonFly BSD","","",5,2011
+DuraSpace,"","",5,2011
+Git,"","",5,2011
+"GNU Image Manipulation Program","","",5,2011
+Haiku,"","",5,2011
+"Nmap Security Scanner","","",5,2011
+"Parrot Foundation","","",5,2011
+"Shogun Machine Learning Toolbox (Technical University Berlin / Max Planck Campus Tübingen)","","",5,2011
+"The Fedora Project","","",5,2011
+"The Perl Foundation","","",5,2011
+"TYPO3 Association","","",5,2011
+AbiWord,"","",4,2011
+"Atomic Blue","","",4,2011
+BlueZ,"","",4,2011
+"Catroid Project","","",4,2011
+"CERN Virtual Machine (CernVM)","","",4,2011
+coreboot,"","",4,2011
+"Ecole Polytechnique Federale de Lausanne, Scala Team","","",4,2011
+"Evergreen Project","","",4,2011
+FiberCorps,"","",4,2011
+"GCC, the GNU Compiler Collection","","",4,2011
+GStreamer,"","",4,2011
+"Helsinki Institute for Information Technology","","",4,2011
+illumos,"","",4,2011
+"Jato VM","","",4,2011
+"Jikes RVM","","",4,2011
+"K-9 Mail","","",4,2011
+LimeSurvey,"","",4,2011
+"MINIX 3 Research group at the Vrije Universiteit in Amsterdam, The Netherlands","","",4,2011
+NTP,"","",4,2011
+"OGRE - Open Source 3D Graphics Engine","","",4,2011
+QEMU.org,"","",4,2011
+ReactOS,"","",4,2011
+Samba,"","",4,2011
+StatusNet,"","",4,2011
+"The Codehaus","","",4,2011
+Tianocore,"","",4,2011
+"Unknown Horizons","","",4,2011
+Wine,"","",4,2011
+"X.Org Foundation","","",4,2011
+"XMMS2 - X-platform Music Multiplexing System 2","","",4,2011
+"XMPP Standards Foundation","","",4,2011
+"Climate Code Foundation","","",3,2011
+"Computational Science and Engineering at TU Wien","","",3,2011
+"Digital Mars","","",3,2011
+"Django Software Foundation","","",3,2011
+Drizzle,"","",3,2011
+FOSSASIA,"","",3,2011
+FreedroidRPG,"","",3,2011
+"Genome Informatics","","",3,2011
+"HelenOS group at Department of Distributed and Dependable Systems, Charles University in Prague","","",3,2011
+Inkscape,"","",3,2011
+"Interface Ecology Lab @ Texas A&M University","","",3,2011
+"Jitsi (SIP Communicator), Kamailio and SEMS","","",3,2011
+"Kernel.org - the Linux Kernel Organization","","",3,2011
+"Liquid Galaxy Project","","",3,2011
+"Marine Biological Laboratory - Center for Library and Informatics","","",3,2011
+Melange,"","",3,2011
+Mixxx,"","",3,2011
+MoinMoin,"","",3,2011
+Moodle,"","",3,2011
+"Natural User Interface Group","","",3,2011
+OpenImageIO,"","",3,2011
+OpenNMS,"","",3,2011
+OpenStreetMap,"","",3,2011
+"Openwall Project","","",3,2011
+"Orange – Data Mining Fruitful & Fun","","",3,2011
+"Plone Foundation","","",3,2011
+"R Project for Statistical Computing ","","",3,2011
+"Review Board","","",3,2011
+"Sakai Project","","",3,2011
+"The Gambit Project","","",3,2011
+"The MacPorts Project","","",3,2011
+"Theoretical Biophysics @ Humboldt University","","",3,2011
+wxWidgets,"","",3,2011
+XWiki,"","",3,2011
+Astrometry.net,"","",2,2011
+BRL-CAD,"","",2,2011
+Buildbot,"","",2,2011
+"CMUSphinx Speech Recognition Toolkit","","",2,2011
+Connexions,"","",2,2011
+DokuWiki,"","",2,2011
+Elgg,"","",2,2011
+"Etherboot Project","","",2,2011
+fluxbox,"","",2,2011
+"Freeseer video recording and streaming suite","","",2,2011
+"GnuCash Free Accounting Software","","",2,2011
+"Google Open Source Programs Office","","",2,2011
+"Grassroots DICOM","","",2,2011
+"International Neuroinformatics Coordinating Facility","","",2,2011
+"Komodo OpenLab Inc.","","",2,2011
+LanguageTool,"","",2,2011
+"Learning Unlimited","","",2,2011
+Mapnik,"","",2,2011
+"MetaBrainz Foundation Inc.","","",2,2011
+"OpenICC Color Management","","",2,2011
+OpenIntents,"","",2,2011
+Processing,"","",2,2011
+Rockbox,"","",2,2011
+"Scribus Team","","",2,2011
+Selenium,"","",2,2011
+"Sencha Labs","","",2,2011
+"SETI Institute","","",2,2011
+"Visualization Toolkit (VTK)","","",2,2011
+"Xapian Search Engine Library","","",2,2011
+"Freenet Project Inc","","",1,2011
+"Hedgewars Project","","",1,2011
+"Hugin - Panorama photo stitcher","","",1,2011
+Isabelle,"","",1,2011
+"Oregon State University Open Source Lab (OSUOSL)","","",1,2011
+"Plan 9 from Bell Labs","","",1,2011
+ScummVM,"","",1,2011
+"Simple DirectMedia Layer","","",1,2011
+"Sunlight Labs","","",1,2011
+"Universal Subtitles","","",1,2011

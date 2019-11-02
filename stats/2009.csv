@@ -1,299 +1,151 @@
-org_name,slots
-"KDE
-",37
-"The Apache Software Foundation
-",32
-"Python Software Foundation
-",25
-"GNOME
-",24
-"Eclipse Foundation
-",19
-"Drupal
-",18
-"OSGeo - Open Source Geospatial Foundation 
-",17
-"The FreeBSD Project
-",17
-"Joomla!
-",16
-"OpenMRS
-",12
-"VideoLAN
-",12
-"MySQL
-",11
-"The NetBSD Project
-",11
-"Freifunk
-",10
-"Maemo Community
-",10
-"The Globus Alliance
-",10
-"GenMAPP
-",9
-"NESCent - National Evolutionary Synthesis Center
-",9
-"Tcl Community Association
-",9
-"The Honeynet Project
-",9
-"Fedora Project & JBoss.org (Red Hat)
-",8
-"OpenCog sponsored by the Singularity Institute for Artificial Intelligence
-",8
-"SIP Communicator
-",8
-"The Apertium Project
-",8
-"The Perl Foundation
-",8
-"Berkman Center at Harvard University
-",7
-"BlueZ
-",7
-"Debian
-",7
-"Geeklog
-",7
-"GNU Project
-",7
-"Natural User Interface Group
-",7
-"The Linux Foundation
-",7
-"Battle for Wesnoth
-",6
-"Django Software Foundation
-",6
-"FFmpeg
-",6
-"Gentoo
-",6
-"GNU Image Manipulation Program
-",6
-"Mono Project
-",6
-"Mozilla Project
-",6
-"Nmap Security Scanner
-",6
-"OpenStreetMap
-",6
-"openSUSE Project
-",6
-"Pidgin, Finch and libpurple
-",6
-"Plan 9 from Bell Labs
-",6
-"Portland State University
-",6
-"RTEMS Project
-",6
-"Scilab/Digiteo Foundation
-",6
-"WordPress
-",6
-"ASCEND
-",5
-"Boost C++ Libraries 
-",5
-"Center for the Study of Complex Systems, Univ of Michigan
-",5
-"GCC
-",5
-"GStreamer
-",5
-"Haiku
-",5
-"haskell.org
-",5
-"LLVM Compiler Infrastructure
-",5
-"Moodle
-",5
-"OMII-UK
-",5
-"Pardus
-",5
-"PHP
-",5
-"Plone Foundation
-",5
-"SharpDevelop
-",5
-"Sugar Labs educational platform (a member of the SFC)
-",5
-"SWIG
-",5
-"The Codehaus
-",5
-"The Electronic Frontier Foundation/The Tor Project
-",5
-"The Freenet Project
-",5
-"The Wine Project
-",5
-"Tux4Kids
-",5
-"Umit Project
-",5
-"AbiWord
-",4
-"Association Gephi
-",4
-"Blender Foundation
-",4
-"BZFlag
-",4
-"Crystal Space
-",4
-"DragonFly BSD
-",4
-"DSpace Foundation
-",4
-"Etherboot Project
-",4
-"Go OpenOffice
-",4
-"Hackystat
-",4
-"Hugin/Panotools
-",4
-"Inkscape
-",4
-"Jato
-",4
-"Melange
-",4
-"MINIX 3
-",4
-"National Center for Supercomputing Applications
-",4
-"Oregon State University Open Source Lab
-",4
-"Ptolemy Project, University of California, Berkeley
-",4
-"Ruby on Rails
-",4
-"Sahana
-",4
-"ScummVM
-",4
-"TYPO3 Association
-",4
-"Wikimedia Foundation
-",4
-"X.Org
-",4
-"Xelerance Corporation
-",4
-"Atheme.org
-",3
-"BRL-CAD
-",3
-"Chromium
-",3
-"coreboot
-",3
-"ES Operating System
-",3
-"Free Software Initiative of Japan
-",3
-"Google's Open Source Programs Office
-",3
-"MoinMoin Wiki
-",3
-"Native Client
-",3
-"NetSurf
-",3
-"NTP Project
-",3
-"OAR
-",3
-"OpenAFS
-",3
-"OpenICC
-",3
-"OpenImageIO
-",3
-"PKIF project
-",3
-"R Foundation for Statistical Computing
-",3
-"Review Board
-",3
-"Rockbox
-",3
-"Sakai Foundation
-",3
-"Samba
-",3
-"Simple DirectMedia Layer
-",3
-"Sunlight Foundation
-",3
-"Systers: Women in Computing
-",3
-"The Asterisk Project
-",3
-"The Enlightenment Project
-",3
-"The ns-3 Network Simulator Project
-",3
-"Thousand Parsec
-",3
-"TikiWiki CMS/Groupware
-",3
-"TurboGears
-",3
-"WinLibre
-",3
-"WorldForge
-",3
-"wxWidgets
-",3
-"Audacity
-",2
-"Comprehensive C Archive Network
-",2
-"Creative Commons
-",2
-"Fiji
-",2
-"LimeSurvey
-",2
-"MetaBrainz Foundation
-",2
-"Mifos
-",2
-"OGRE
-",2
-"SCons next-generation build system
-",2
-"The Aqsis Team
-",2
-"The MacPorts Project
-",2
-"The Syslinux Project
-",2
-"Xiph.Org Foundation
-",2
-"XMMS2
-",2
-"Git Development Community
-",1
-"Mercurial (a member of the Software Freedom Conservancy)
-",1
-"Open64
-",1
-"OpenChange (a project of the Free Software Conservancy)
-",1
-"OpenSSH
-",1
-"Scribus Team
-",1
-"Subversion
-",1
+name,tagline,technologies,slots,year
+KDE,"","",37,2009
+"The Apache Software Foundation","","",32,2009
+"Python Software Foundation","","",25,2009
+GNOME,"","",24,2009
+"Eclipse Foundation","","",19,2009
+Drupal,"","",18,2009
+"OSGeo - Open Source Geospatial Foundation ","","",17,2009
+"The FreeBSD Project","","",17,2009
+Joomla!,"","",16,2009
+OpenMRS,"","",12,2009
+VideoLAN,"","",12,2009
+MySQL,"","",11,2009
+"The NetBSD Project","","",11,2009
+Freifunk,"","",10,2009
+"Maemo Community","","",10,2009
+"The Globus Alliance","","",10,2009
+GenMAPP,"","",9,2009
+"NESCent - National Evolutionary Synthesis Center","","",9,2009
+"Tcl Community Association","","",9,2009
+"The Honeynet Project","","",9,2009
+"Fedora Project & JBoss.org (Red Hat)","","",8,2009
+"OpenCog sponsored by the Singularity Institute for Artificial Intelligence","","",8,2009
+"SIP Communicator","","",8,2009
+"The Apertium Project","","",8,2009
+"The Perl Foundation","","",8,2009
+"Berkman Center at Harvard University","","",7,2009
+BlueZ,"","",7,2009
+Debian,"","",7,2009
+Geeklog,"","",7,2009
+"GNU Project","","",7,2009
+"Natural User Interface Group","","",7,2009
+"The Linux Foundation","","",7,2009
+"Battle for Wesnoth","","",6,2009
+"Django Software Foundation","","",6,2009
+FFmpeg,"","",6,2009
+Gentoo,"","",6,2009
+"GNU Image Manipulation Program","","",6,2009
+"Mono Project","","",6,2009
+"Mozilla Project","","",6,2009
+"Nmap Security Scanner","","",6,2009
+OpenStreetMap,"","",6,2009
+"openSUSE Project","","",6,2009
+"Pidgin, Finch and libpurple","","",6,2009
+"Plan 9 from Bell Labs","","",6,2009
+"Portland State University","","",6,2009
+"RTEMS Project","","",6,2009
+"Scilab/Digiteo Foundation","","",6,2009
+WordPress,"","",6,2009
+ASCEND,"","",5,2009
+"Boost C++ Libraries ","","",5,2009
+"Center for the Study of Complex Systems, Univ of Michigan","","",5,2009
+GCC,"","",5,2009
+GStreamer,"","",5,2009
+Haiku,"","",5,2009
+haskell.org,"","",5,2009
+"LLVM Compiler Infrastructure","","",5,2009
+Moodle,"","",5,2009
+OMII-UK,"","",5,2009
+Pardus,"","",5,2009
+PHP,"","",5,2009
+"Plone Foundation","","",5,2009
+SharpDevelop,"","",5,2009
+"Sugar Labs educational platform (a member of the SFC)","","",5,2009
+SWIG,"","",5,2009
+"The Codehaus","","",5,2009
+"The Electronic Frontier Foundation/The Tor Project","","",5,2009
+"The Freenet Project","","",5,2009
+"The Wine Project","","",5,2009
+Tux4Kids,"","",5,2009
+"Umit Project","","",5,2009
+AbiWord,"","",4,2009
+"Association Gephi","","",4,2009
+"Blender Foundation","","",4,2009
+BZFlag,"","",4,2009
+"Crystal Space","","",4,2009
+"DragonFly BSD","","",4,2009
+"DSpace Foundation","","",4,2009
+"Etherboot Project","","",4,2009
+"Go OpenOffice","","",4,2009
+Hackystat,"","",4,2009
+Hugin/Panotools,"","",4,2009
+Inkscape,"","",4,2009
+Jato,"","",4,2009
+Melange,"","",4,2009
+"MINIX 3","","",4,2009
+"National Center for Supercomputing Applications","","",4,2009
+"Oregon State University Open Source Lab","","",4,2009
+"Ptolemy Project, University of California, Berkeley","","",4,2009
+"Ruby on Rails","","",4,2009
+Sahana,"","",4,2009
+ScummVM,"","",4,2009
+"TYPO3 Association","","",4,2009
+"Wikimedia Foundation","","",4,2009
+X.Org,"","",4,2009
+"Xelerance Corporation","","",4,2009
+XWiki,"","",4,2009
+Atheme.org,"","",3,2009
+BRL-CAD,"","",3,2009
+Chromium,"","",3,2009
+coreboot,"","",3,2009
+"ES Operating System","","",3,2009
+"Free Software Initiative of Japan","","",3,2009
+"Google's Open Source Programs Office","","",3,2009
+"MoinMoin Wiki","","",3,2009
+"Native Client","","",3,2009
+NetSurf,"","",3,2009
+"NTP Project","","",3,2009
+OAR,"","",3,2009
+OpenAFS,"","",3,2009
+OpenICC,"","",3,2009
+OpenImageIO,"","",3,2009
+"PKIF project","","",3,2009
+"R Foundation for Statistical Computing","","",3,2009
+"Review Board","","",3,2009
+Rockbox,"","",3,2009
+"Sakai Foundation","","",3,2009
+Samba,"","",3,2009
+"Simple DirectMedia Layer","","",3,2009
+"Sunlight Foundation","","",3,2009
+"Systers: Women in Computing","","",3,2009
+"The Asterisk Project","","",3,2009
+"The Enlightenment Project","","",3,2009
+"The ns-3 Network Simulator Project","","",3,2009
+"Thousand Parsec","","",3,2009
+"TikiWiki CMS/Groupware","","",3,2009
+TurboGears,"","",3,2009
+WinLibre,"","",3,2009
+WorldForge,"","",3,2009
+wxWidgets,"","",3,2009
+Audacity,"","",2,2009
+"Comprehensive C Archive Network","","",2,2009
+"Creative Commons","","",2,2009
+Fiji,"","",2,2009
+LimeSurvey,"","",2,2009
+"MetaBrainz Foundation","","",2,2009
+Mifos,"","",2,2009
+OGRE,"","",2,2009
+"SCons next-generation build system","","",2,2009
+"The Aqsis Team","","",2,2009
+"The MacPorts Project","","",2,2009
+"The Syslinux Project","","",2,2009
+"Xiph.Org Foundation","","",2,2009
+XMMS2,"","",2,2009
+"Git Development Community","","",1,2009
+"Mercurial (a member of the Software Freedom Conservancy)","","",1,2009
+Open64,"","",1,2009
+"OpenChange (a project of the Free Software Conservancy)","","",1,2009
+OpenSSH,"","",1,2009
+"Scribus Team","","",1,2009
+Subversion,"","",1,2009

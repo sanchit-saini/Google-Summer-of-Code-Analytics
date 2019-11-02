@@ -1,713 +1,179 @@
-org_name,org_description,technologies,slots
-"Python Software Foundation
-","Python is programming language popular among scientists and more.
-","['python', 'mercurial']
-",49
-"Apache Software Foundation
-","Providing open source software to the public free of charge
-","['java', 'ruby', 'python', 'javascript', 'couchdb']
-",35
-"KDE
-","KDE is an international technology team that creates user-friendly software
-","['qt', 'cmake', 'c++', 'php']
-",32
-"R project for statistical computing
-","R is a free software environment for statistical computing and graphics
-","['r', 'c', 'c++', 'fortran']
-",22
-"Debian Project
-","The Universal Operating System
-","['python', 'c', 'c++', 'ruby', 'django']
-",20
-"OSGeo - The Open Source Geospatial Foundation
-","The Open Source Geospatial Foundation
-","['python', 'sql', 'c', 'ogc standards', 'c++']
-",20
-"Systers, an Anita Borg Institute Community
-","Increasing the number of women in computing fields and technology.
-","['python', 'android', 'ios', 'mysql', 'ruby on rails']
-",19
-"FOSSASIA
-","Open Technologies for Social Change
-","['javascript', 'android', 'python', 'java', 'json api']
-",18
-"GNOME
-","Ease, comfort and control
-","['c', 'python', 'javascript', 'gtk+']
-",18
-"GNU Project
-","The GNU Operating System
-","['posix', 'c', 'lisp', 'python', 'eiffel']
-",15
-"National Resource for Network Biology (NRNB)
-","Developing open source software to enable network-based biomedical discovery
-","['c++', 'java', 'javascript', 'php', 'python']
-",15
-"Mozilla
-","We're building a better Internet
-","['c++', 'python', 'javascript', 'html', 'rust']
-",13
-"FreeBSD
-","FreeBSD: The Foundation of the Internet
-","['c/c++', 'clang', 'llvm', 'shell script', 'make']
-",12
-"International Neuroinformatics Coordinating Facility
-","Advancing global collaborative brain research
-","['c++', 'python', 'gpu', 'javascript', 'java']
-",12
-"Ruby
-","The Ruby programming language, libraries, and tools
-","['ruby']
-",12
-"Eclipse Foundation
-","Eclipse is a community who collaborates on open source software.
-","['java', 'geospatial', 'c/c++']
-",11
-"OpenCV
-","Open Source Computer Vision and Machine Learning Library
-","['c++', 'python', 'machine learning', 'computer vision']
-",11
-"The Apertium Project
-","A free/open-source rule-based machine translation platform
-","['c++', 'python', 'perl', 'xml', 'finite-state technologies']
-",11
-"The Honeynet Project
-","The Honeynet Project - R&D for honeypot/honeynet technolgy and infosec research
-","['android', 'machine learning', 'honeypots', 'python', 'html/javascript']
-",11
-"The Linux Foundation
-","A non-profit consortium dedicated to fostering the growth of Linux
-","['c', 'c++', 'python', 'mysql', 'cups']
-",11
-"WSO2
-","Open Source Middleware Platform
-","['middleware', 'java', 'soa', 'distributed computing', 'web services']
-",11
-"Berkman Center for Internet and Society
-","An interdisciplinary university-wide research center focused on the Internet
-","['ruby on rails', 'javascript', 'sql/nosql', 'meteor.js', 'go']
-",10
-"CERN SFT
-","The SFT is part of CERN (European Organization for Nuclear Research).
-","['c++', 'python', 'javascript', 'clang']
-",10
-"Computational Science and Engineering at TU Wien
-","We bundle TU Wien's open source efforts in the area of science and engineering
-","['javascript', 'html', 'css', 'java', 'c++']
-",10
-"Java Pathfinder Team
-","JPF is a highly extensible Java virtual machine built for sofware verification
-","['java', 'jvm', 'android', 'distributed systems']
-",10
-"The Julia Language
-","The Julia Language
-","['julia', 'atom', 'c++', 'javascript', 'c']
-",10
-"BRL-CAD
-","We develop solid modeling, CAD, CAM, & other computer-aided technologies (CAx)
-","['opencl', 'opengl', 'c/c++', 'python', 'tcl']
-",9
-"Drupal
-","Drupal is a Free, Open, Modular CMS written in PHP. Websites, databases, +more
-","['php', 'symfony', 'sql', 'javascript', 'html5']
-",9
-"JBoss Community
-","Community of Java projects around JBoss Middleware
-","['java', 'android', 'ide', 'aerogear', 'asciidoctor']
-",9
-"LibreOffice
-","LibreOffice is a powerful cross-platform office suite.
-","['c++', 'python', 'java', 'android', 'opengl']
-",9
-"OpenMRS
-","Write code. Save lives.
-","['java', 'groovy', 'html5', 'xml', 'hibernate']
-",9
-"Scala
-","The programming language where object-oriented meets functional.
-","['scala', 'jvm']
-",9
-"Blender Foundation
-","We make a 100% free/open source 3D creation pipeline.
-","['c', 'c++', 'python', 'opengl']
-",8
-"CiviCRM
-","Contact relationship management for non-profits, NGOs and advocacy organizations
-","['php', 'javascript', 'mysql', 'angularjs', 'd3js']
-",8
-"dbpediaspotlight
-","Information Extraction framework from Wikipedia, Wikidata & Commons
-","['java', 'scala', 'rdf', 'python', 'nosql']
-",8
-"Freifunk
-","Freifunk is a non-commercial initiative for free and open wireless networks.
-","['openwrt', 'olsr', 'batman', 'c', 'lua']
-",8
-"LabLua
-","LabLua - Lua programming language research lab at PUC-Rio
-","['lua', 'luarocks', 'elasticsearch', 'netbsd', 'céu']
-",8
-"Catrobat
-","Our apps empower teens to visually create their own apps directly on their phone
-","['android', 'java', 'html5', 'web', 'javascript']
-",7
-"FFmpeg
-","Cross-platform software to convert audio and video.
-","['c', 'asm', 'git']
-",7
-"Indic Project
-","Improving Information Infrastructure and Access to Knowledge in Indian languages
-","['android', 'python', 'javascript', 'ruby on rails', 'c++']
-",7
-"jQuery Foundation
-","jQuery Foundation - home of jQuery, Dojo and many other JavaScript libraries
-","['javascript', 'html5', 'css', 'jquery']
-",7
-"NumFOCUS
-","NumFOCUS promotes open source scientific software.
-","['python', 'javascript', 'julia', 'r']
-",7
-"Open Bioinformatics Foundation
-","Supporting OSS and Open Science in the biological research community.
-","['perl', 'python', 'ruby', 'java', 'haskell']
-",7
-"Open Source Robotics Foundation
-","Open source software for use in robotics research, education, and industry.
-","['ros', 'gazebo']
-",7
-"OpenAstronomy
-","Confederation of open source projects in Astronomy
-","['python', 'julia', 'c', 'numpy']
-",7
-"Sustainable Computing Research Group ( SCoRe )
-","SCoRe has conducted research covering various aspects of Security, Mobile & IOT.
-","['java', 'android', 'hadoop', 'python', 'golang']
-",7
-"SymPy
-","Computer algebra system in Python
-","['python', 'c++']
-",7
-"TEAMMATES @ National University of Singapore
-","An online feedback management system for education
-","['java', 'app engine', 'javascript', 'css', 'html']
-",7
-"The LLVM Compiler Infrastructure
-","The LLVM Compiler Infrastructure
-","['c', 'c++', 'llvm', 'clang']
-",7
-"AOSSIE - The Australian National University's Open-Source Software Innovation and Education
-","Research-Intensive Open-Source Projects at Australia's Leading University
-","['scala', 'lisp', 'llvm', 'python', 'postgresql']
-",6
-"BeagleBoard.org
-","open hardware physical computing community with Linux
-","['beaglebone', 'javascript', 'python', 'linux', 'c']
-",6
-"Beam Community
-","From distributed systems, to robust servers and language design on the Erlang VM
-","['erlang', 'elixir', 'xmpp', 'beam', 'mqtt']
-",6
-"CCExtractor Development
-","The de-facto standard tool for everything related to subtitles.
-","['c', 'video', 'ffmpeg', 'subtitles', 'linux']
-",6
-"Fedora Project
-","Lead the advance of Free/Open Source Software/Content as collaborative community
-","['python', 'flask', 'postgresql', 'html5', 'javascript']
-",6
-"Health Information Systems Programme
-","Health information system which is being used by 47 countries across world.
-","['java', 'android', 'javascript', 'reactjs', 'gradle']
-",6
-"Mifos Initiative
-","End Poverty One Line of Code at a Time
-","['java', 'javascript', 'angularjs', 'android', 'mysql']
-",6
-"mlpack: a scalable C++ machine learning library
-","a scalable C++ machine learning library
-","['c++']
-",6
-"Open Genome Informatics
-","Open Genome Informatics represents the efforts of many bioinformatics projects.
-","['python', 'java', 'html/javascript', 'nodejs', 'gwt']
-",6
-"openSUSE
-","openSUSE Linux - The makers' choice for sysadmins, developers and desktop users
-","['ruby on rails', 'angularjs', 'docker', 'linux', 'ruby']
-",6
-"Portland State University
-","Portland State University
-","['open hardware', 'language-agnostic']
-",6
-"QEMU
-","Open source machine emulator and virtualizer
-","['c', 'assembly', 'kvm']
-",6
-"Wikimedia Foundation
-","A global movement with a mission to bring free educational content to the world
-","['php', 'javascript', 'html', 'css', 'jquery']
-",6
-"Biomedical Informatics, Emory University
-","Big Data for Healthcare and Biomedical Research
-","['java', 'medical imaging', 'deep learning', 'hadoop', 'python']
-",5
-"cBioPortal for Cancer Genomics
-","Open source software solutions of precision medicine for cancer patients
-","['java', 'javascript', 'web', 'html', 'big data']
-",5
-"Computational Biology @ University of Nebraska-Lincoln
-","Development of software technologies for biomedical research and applications.
-","['webgl', 'javascript', 'mysql', 'react']
-",5
-"Gentoo Foundation
-","A flexible, source-based Linux distribution.
-","['shell script', 'c/c++', 'python', 'perl', 'sql']
-",5
-"GNU Octave
-","GNU Octave : Free Your Numbers.
-","['hg', 'c++']
-",5
-"Joomla!
-","A Free and Open Source CMS, Trusted By Millions for their Websites
-","['php', 'css', 'html', 'javascript', 'jquery']
-",5
-"MariaDB
-","One of the most popular databases on the web with many notable users
-","['mysql', 'mariadb', 'c', 'perl']
-",5
-"MIT Media Lab
-","Build Your own Android Apps!
-","['java', 'html/javascript', 'android']
-",5
-"Nmap Security Scanner
-","Swiss Army knife of network discovery and security auditing
-","['c/c++', 'lua', 'python', 'c', 'c++']
-",5
-"Orange – Data Mining Fruitful & Fun
-","A cross-platform, visual-programming tool for data mining and visualization.
-","['python', 'cython', 'qt', 'machine learning']
-",5
-"OWASP Foundation
-","OWASP, The Open Web Application Security Project.
-","['python', 'php', 'javascript', 'java', 'html']
-",5
-"PRISM Model Checker
-","PRISM is a tool for formally verifying the correctness of probabilistic systems.
-","['java', 'c++']
-",5
-"Public Lab
-","Open hardware and software to help communities measure and analyze pollution
-","['javascript', 'ruby on rails', 'leaflet', 'webrtc']
-",5
-"Red Hen Lab
-","Red Hen Lab: Research on Multimodal Communication
-","['high performance computing', 'machine learning', 'opencv', 'audio procesing', 'multimodal analysis']
-",5
-"Robocomp
-","A framework for creating and modifying software components for robotics.
-","['c++', 'python', 'zeroc ice', 'cmake', 'gnu/linux']
-",5
-"RTEMS Project
-","Open Source Deterministic Real-Time Operating System for Embedded Systems
-","['c', 'python', 'waf', 'embedded systems']
-",5
-"Sage Mathematical Software System
-","open-source mathematical software system
-","['python', 'javascript', 'cython', 'c++']
-",5
-"Scilab Enterprises
-","Numerical computation IDE for engineering and scientific applications
-","['scilab', 'c++', 'java', 'c', 'fortran']
-",5
-"Sugar Labs
-","Learning software for children
-","['python', 'javascript', 'gtk+']
-",5
-"The Tor Project
-","Anonymity, privacy, and anti-censorship software
-","['c', 'javascript', 'golang', 'python', 'browser extensions']
-",5
-"Xapian Search Engine Library
-","Fast, scalable and flexible search
-","['c++', 'unicode', 'swig', 'android', 'golang']
-",5
-"BuildmLearn
-","Building m-Learning applications
-","['python', 'django', 'bootstrap', 'android']
-",4
-"Ceph
-","The Future of Storage
-","['c/c++', 'python', 'object-storage']
-",4
-"D Foundation
-","The D Foundation leads development of the D Programming Language.
-","['dlang', 'c++']
-",4
-"GitHub
-","How people build software
-","['git', 'atom', 'node.js', 'ruby', 'c#']
-",4
-"Homebrew
-","Package management software for OS X.
-","['ruby', 'git', 'osx']
-",4
-"Inclusive Design Institute
-","The IDI addresses the challenge of designing ICT to work for all potential users
-","['javascript', 'jquery', 'html5', 'css', 'node.js']
-",4
-"KolibriOS
-","KolibriOS Project team
-","['fasm', 'flat assembler', 'x86 assembly', 'i386', 'i586']
-",4
-"Libvirt
-","Stable API for easier virtualization.
-","['c', 'qemu', 'xen', 'containers']
-",4
-"Liquid Galaxy Project
-","Liquid Galaxy Project: wraparound open-source immersion!
-","['javascript', 'ros', 'gis', 'cesium']
-",4
-"lowRISC
-","Creating a fully open-source SoC design
-","['verilog', 'fpga', 'chisel', 'c++', 'linux']
-",4
-"MetaBrainz Foundation
-","We curate data and make it freely available!
-","['python', 'perl', 'postgresql', 'javascript']
-",4
-"Moodle
-","The world's open source learning platform
-","['php', 'jquery', 'mysql', 'postgresql', 'javascript']
-",4
-"OpenStreetMap
-","OpenStreetMap - Creating and distributing free geographic data for the world.
-","['postgis', 'java', 'ruby', 'javascript', 'opengl']
-",4
-"ReactOS
-","ReactOS is a free, open source, Windows compatible operating system.
-","['c/c++', 'c']
-",4
-"Ruby Science Foundation
-","Tools for Scientific Computing in Ruby
-","['ruby', 'c programming', 'jruby', 'c/c++']
-",4
-"Stony Brook University Biomedical Informatics
-","Biomedical Informatics at Stony Brook University
-","['medical imaging', 'bioinformatics', 'hadoop', 'big data']
-",4
-"strace
-","linux syscall tracer
-","['linux', 'c', 'git', 'shell script', 'make']
-",4
-"The NetBSD Foundation
-","of course it runs NetBSD
-","['bsd', 'security', 'networking', 'c programming', 'kernel']
-",4
-"The STE||AR Group
-","The STE||AR Group - Shaping a Scalable Future
-","['parallel processing', 'high performance computing', 'c++', 'cuda', 'opencl']
-",4
-"The syslog-ng project
-","Open source log management solution with over a million users worldwide.
-","['c', 'java', 'python', 'big data', 'rust']
-",4
-"52°North Initiative for Geospatial Open Source Software GmbH
-","52°North works on innovative ideas and technologies in geoinformatics
-","['javascript', 'java', 'ogc standards', 'web services']
-",3
-"aimacode
-","Code to accompany the book ""AI: A Modern Approach""
-","['python', 'java', 'javascript']
-",3
-"ASCEND
-","Equation-solving software for engineering system modelling
-","['python', 'c', 'c/c++']
-",3
-"BioJS
-","BioJS is an open source project that visualizes biological data using JavaScript
-","['javascript', 'python']
-",3
-"Canadian Centre for Computational Genomics (C3G) - Montreal node
-","Analytical solutions for Next-Generation Sequencing data
-","['python', 'r-project', 'javascript', 'sql', 'git']
-",3
-"Celluloid
-","Painless multi-threaded multi-core programming for Ruby.
-","['ruby', 'multi-threading', 'multi-core', 'zeromq', 'high-resolution timers']
-",3
-"coreboot
-","fast and flexible Open Source firmware
-","['c', 'assembly', 'open hardware']
-",3
-"Free and Open Source Silicon Foundation
-","Free and Open Source Digital Designs and their Ecosystem, EDA Tools and OpenRISC
-","['open hardware', 'fpga', 'compiler', 'python', 'javascript']
-",3
-"Gambit - Software Tools for Game Theory
-","Software for Analysis of Game Theory Models
-","['javascript']
-",3
-"Global Alliance for Genomics & Health
-","GA4GH develops open standards and tools for genomics to benefit human health
-","['python', 'java', 'protobuf', 'sql']
-",3
-"gnss-sdr
-","GNSS-SDR is an open source Global Navigation Satellite Systems software receiver
-","['c/c++', 'c++11', 'c++14', 'gnss']
-",3
-"GNU Mailman
-","Mailman is free software for managing electronic mailing lists.
-","['python', 'email', 'django']
-",3
-"Green Navigation
-","Routing Service for finding the shortest, fastest and most energy efficient way.
-","['javascript', 'postgresql', 'polymer', 'go', 'electromobility']
-",3
-"MBDyn, Department of Aerospace Science and Technology at Politecnico di Milano
-","MBDyn is a multidisciplinary Multibody Dynamics scientific simulation software.
-","['c++']
-",3
-"McGill Space Institute
-","Center bringing together scientists doing space-related research at McGill
-","['python', 'sql', 'databases', 'big data']
-",3
-"Mobile Robot Programming Toolkit (MRPT)
-","Mobile Robot Programming Toolkit: empowering C++ development in robotics
-","['c++', 'ros', 'opencv', 'cmake', 'qt']
-",3
-"ModSecurity
-","ModSecurity cross platform web application firewall
-","['waf', 'web application firewall']
-",3
-"MovingBlocks
-","Terasology: like an open source Minecraft - imagine the possibilities!
-","['java', 'lwjgl', 'opengl', 'blender', 'gradle']
-",3
-"MuseScore
-","MuseScore: Create, play and print beautiful sheet music
-","['qt', 'c/c++', 'qml']
-",3
-"Netfilter project
-","Netfilter project
-","['firewall', 'linux kernel', 'networking']
-",3
-"Physical Web Project
-","The Physical Web Project develops use cases around Google's the Physical Web IoT
-","['internet of things', 'beacons', 'python', 'arduino']
-",3
-"Plone Foundation
-","The premier python-based content management system
-","['python', 'zope', 'javascript', 'rest', 'nosql']
-",3
-"radare
-","radare is a reverse engineering framework and toolset
-","['c', 'rust']
-",3
-"ScummVM
-","ScummVM is a GSoC umbrella for game preservation projects
-","['c++', 'sdl', 'opengl', 'assembly']
-",3
-"Shogun Machine Learning Toolbox
-","Unified and efficient Machine Learning.
-","['c++', 'python', 'swig', 'cmake']
-",3
-"Soletta Project
-","Soletta Project is an open source framework for making IoT applications
-","['c', 'python', 'javascript', 'networking', 'machine learning']
-",3
-"TARDIS-SN
-","Unravelling Cosmic Explosions in Style
-","['python', 'cython', 'c']
-",3
-"Timelab Technologies Ltd.
-","We help scientists understanding information in time-series
-","['python', 'javascript']
-",3
-"Urban Energy Systems Laboratory, Empa
-","HUES is a platform for modeling & simulation of decentralized energy systems
-","['python', 'milp', 'gis']
-",3
-"Vert.x
-","Vert.x is a tool-kit for building reactive applications on the JVM.
-","['java', 'reactive', 'javascript', 'groovy', 'micro-services']
-",3
-"VideoLAN / VLMC Project
-","A non-linear video editor, based on VLC technology.
-","['opengl', 'c++', 'c', 'assembly', 'qt']
-",3
-"vitrivr
-","vitrivr allows you to use novel methods to search in videos
-","['java', 'web', 'computer vision', 'machine learning', 'databases']
-",3
-"Zulip Open Source Project
-","Zulip: Powerful open source group chat
-","['python', 'javascript', 'django', 'android', 'ios']
-",3
-"ArchC
-","ArchC is an Architecture Description Language
-","['c++', 'python', 'archc']
-",2
-"Boston University / XIA
-","Crowdsourcing the future Internet
-","['xia', 'c', 'linux kernel', 'advanced data structures']
-",2
-"Chapel
-","a Productive Parallel Programming Language
-","['python', 'chapel', 'c', 'c++', 'high performance computing']
-",2
-"Classical Language Toolkit
-","NLP for the ancient world
-","['python', 'javascript', 'java']
-",2
-"CloudCV
-","CloudCV - Large Scale Distribution Vision algorithms as a Cloud Service
-","['python', 'javascript', 'lua', 'caffe', 'torch']
-",2
-"Copyleft Games
-","Tools, libraries, and engines to help in game development
-","['python', 'opengl', 'c']
-",2
-"Discourse
-","A next-generation discussion forum.
-","['ruby', 'ruby on rails', 'javascript', 'ember', 'docker']
-",2
-"Distributed and Unified Numerics Environment (DUNE)
-","DUNE is a modular toolbox for solving PDEs with grid-based methods.
-","['c++', 'python', 'cmake']
-",2
-"Genes, Genomes and Variation
-","Ensembl Genome Browsers
-","['mysql', 'javascript', 'perl']
-",2
-"GNU Radio
-","The Free and Open Software Radio Ecosystem
-","['c++', 'python', 'software radio', 'dsp', 'rf']
-",2
-"gRPC
-","A high performance, open source, general RPC framework.
-","['distributed systems', 'networking', 'micro-services', 'scalability', 'http/2']
-",2
-"Inkscape
-","Inkscape is a professional vector graphics editor for Windows, OS X, and Linux.
-","['c++', 'python', 'svg', 'css', 'gtk+']
-",2
-"Matrix.org
-","An ambitious opensource project creating a new, decentralised comms ecosystem.
-","['react', 'android', 'ios', 'golang', 'python']
-",2
-"Mixxx DJ Software
-","DJ Your Way, For Free. Join our friendly community of hackers, DJs, and artists!
-","['c++11', 'c++', 'qt', 'audio', 'opengl']
-",2
-"Open Chemistry
-","Open source chemistry software libraries and tools
-","['c++', 'opengl', 'python', 'javascript', 'webgl']
-",2
-"Open Detection
-","Open Detection is a open source project for object detection and recognition.
-","['c/c++', 'cmake', 'opencv', 'pcl', 'caffe']
-",2
-"Open Ephys
-","Open-source electrophysiology
-","['c++', 'juce']
-",2
-"OpenKeychain (OpenPGP for Android)
-","OpenKeychain: Easy PGP for Android
-","['android', 'openpgp']
-",2
-"ownCloud
-","A safe home for all your data
-","['javascript', 'php', 'css', 'html', 'sql']
-",2
-"P2PSP.org
-","Shaping the future Internet TV
-","['python', 'c++', 'webrtc', 'android', 'ios']
-",2
-"Performance Co-Pilot
-","Performance Co-Pilot - system-level performance analysis toolkit
-","['golang', 'ruby', 'java', 'linux kernel', 'javascript']
-",2
-"The Wine Project
-","Wine runs Windows applications on Linux, BSD, Solaris and Mac OS X.
-","['c', 'opengl', 'directx', 'x11', 'win32']
-",2
-"TimVideos.us
-","TimVideos.us - FOSS event recording & streaming software and hardware.
-","['vhdl', 'verilog', 'fpga', 'python', 'c']
-",2
-"Unitex/GramLab
-","Unitex/GramLab is an open source, multilingual corpus processing suite
-","['java', 'c++']
-",2
-"X.Org Foundation
-","X Window System and related projects (Mesa, DRI, Wayland, etc.)
-","['c', 'c++', 'opengl', 'vulkan', 'opencl']
-",2
-"CVXPY
-","CVXPY is a Python-embedded modeling language for convex optimization problems.
-","['python']
-",1
-"Django Software Foundation
-","The web framework for perfectionists with deadlines.
-","['python', 'django']
-",1
-"FOSDEM VZW
-","The organization that handles all aspects of the FOSDEM conference
-","['ruby on rails', 'postgresql', 'git']
-",1
-"Ganeti
-","Cluster virtual server management software
-","['python', 'haskell', 'kvm', 'xen', 'virtualization']
-",1
-"Git
-","fast, scalable, distributed revision control system
-","['c', 'shell script', 'git']
-",1
-"GPAC
-","GPAC - Multimedia Open-Source Project
-","['mp4', 'dash', 'mp4box', 'javascript', 'c++']
-",1
-"Jenkins Project
-","Jenkins is an open-source automation server
-","['java', 'groovy', 'jenkins', 'css', 'html']
-",1
-"Oppia Foundation
-","Oppia is used for collaboratively building interactive and intelligent tutors.
-","['javascript', 'app engine', 'python', 'css', 'angularjs']
-",1
-"OSU Open Source Lab
-","OSU Open Source Lab
-","['python', 'rest', 'javascript', 'ruby']
-",1
-"PLASMA-UMass
-","PLASMA explores ways to make programming languages faster, safer, and easier.
-","['javascript', 'c/c++', 'scala', 'go']
-",1
-"Sigmah
-","Open source information management software for international aid projects
-","['java', 'gwt']
-",1
-"The Center for Connected Learning and Computer-Based Modeling
-","NetLogo: A language and IDE for programming and scientific simulations
-","['javascript', 'scala', 'java', 'html5', 'css']
-",1
-"The Monarch Initiative
-","An informatics platform for translational disease research
-","['semantic web', 'javascript', 'text mining', 'named entity recognition', 'ontologies']
-",1
-"Wayland
-","Wayland is a protocol for windowing systems on both desktops and embedded
-","['opengl', 'wayland', 'c', 'xml', 'kms']
-",1
-"JSK Robotics Laboratory
-","JSK Robotics Laboratory / The University of Tokyo
-","['euslisp', 'openhrp', 'openrtm', 'ros']
-",0
-"Peragro
-","Digital Assets Managed Neatly
-","['python', 'blender', 'javascript', 'celery', 'django']
-",0
-"XWiki
-","Generic web platform for developing collaborative apps on the wiki paradigm
-","['java', 'javascript', 'html5', 'css3', 'velocity']
-",0
+name,tagline,technologies,slots,year
+"Python Software Foundation","Python is programming language popular among scientists and more.","python,mercurial",49,2016
+"Apache Software Foundation","Providing open source software to the public free of charge","java,ruby,python,javascript,couchdb",35,2016
+KDE,"KDE is an international technology team that creates user-friendly software","qt,cmake,c++,php",32,2016
+"R project for statistical computing","R is a free software environment for statistical computing and graphics","r,c,c++,fortran",22,2016
+"Debian Project","The Universal Operating System","python,c,c++,ruby,django",20,2016
+"OSGeo - The Open Source Geospatial Foundation","The Open Source Geospatial Foundation","python,sql,c,ogc standards,c++",20,2016
+"Systers, an Anita Borg Institute Community","Increasing the number of women in computing fields and technology.","python,android,ios,mysql,ruby on rails",19,2016
+FOSSASIA,"Open Technologies for Social Change","javascript,android,python,java,json api",18,2016
+GNOME,"Ease, comfort and control","c,python,javascript,gtk+",18,2016
+"GNU Project","The GNU Operating System","posix,c,lisp,python,eiffel",15,2016
+"National Resource for Network Biology (NRNB)","Developing open source software to enable network-based biomedical discovery","c++,java,javascript,php,python",15,2016
+Mozilla,"We're building a better Internet","c++,python,javascript,html,rust",13,2016
+FreeBSD,"FreeBSD: The Foundation of the Internet","c/c++,clang,llvm,shell script,make",12,2016
+"International Neuroinformatics Coordinating Facility","Advancing global collaborative brain research","c++,python,gpu,javascript,java",12,2016
+Ruby,"The Ruby programming language, libraries, and tools",ruby,12,2016
+"Eclipse Foundation","Eclipse is a community who collaborates on open source software.","java,geospatial,c/c++",11,2016
+OpenCV,"Open Source Computer Vision and Machine Learning Library","c++,python,machine learning,computer vision",11,2016
+"The Apertium Project","A free/open-source rule-based machine translation platform","c++,python,perl,xml,finite-state technologies",11,2016
+"The Honeynet Project","The Honeynet Project - R&D for honeypot/honeynet technolgy and infosec research","android,machine learning,honeypots,python,html/javascript",11,2016
+"The Linux Foundation","A non-profit consortium dedicated to fostering the growth of Linux","c,c++,python,mysql,cups",11,2016
+WSO2,"Open Source Middleware Platform","middleware,java,soa,distributed computing,web services",11,2016
+"Berkman Center for Internet and Society","An interdisciplinary university-wide research center focused on the Internet","ruby on rails,javascript,sql/nosql,meteor.js,go",10,2016
+"CERN SFT","The SFT is part of CERN (European Organization for Nuclear Research).","c++,python,javascript,clang",10,2016
+"Computational Science and Engineering at TU Wien","We bundle TU Wien's open source efforts in the area of science and engineering","javascript,html,css,java,c++",10,2016
+"Java Pathfinder Team","JPF is a highly extensible Java virtual machine built for sofware verification","java,jvm,android,distributed systems",10,2016
+"The Julia Language","The Julia Language","julia,atom,c++,javascript,c",10,2016
+BRL-CAD,"We develop solid modeling, CAD, CAM, & other computer-aided technologies (CAx)","opencl,opengl,c/c++,python,tcl",9,2016
+Drupal,"Drupal is a Free, Open, Modular CMS written in PHP. Websites, databases, +more","php,symfony,sql,javascript,html5",9,2016
+"JBoss Community","Community of Java projects around JBoss Middleware","java,android,ide,aerogear,asciidoctor",9,2016
+LibreOffice,"LibreOffice is a powerful cross-platform office suite.","c++,python,java,android,opengl",9,2016
+OpenMRS,"Write code. Save lives.","java,groovy,html5,xml,hibernate",9,2016
+Scala,"The programming language where object-oriented meets functional.","scala,jvm",9,2016
+"Blender Foundation","We make a 100% free/open source 3D creation pipeline.","c,c++,python,opengl",8,2016
+CiviCRM,"Contact relationship management for non-profits, NGOs and advocacy organizations","php,javascript,mysql,angularjs,d3js",8,2016
+dbpediaspotlight,"Information Extraction framework from Wikipedia, Wikidata & Commons","java,scala,rdf,python,nosql",8,2016
+Freifunk,"Freifunk is a non-commercial initiative for free and open wireless networks.","openwrt,olsr,batman,c,lua",8,2016
+LabLua,"LabLua - Lua programming language research lab at PUC-Rio","lua,luarocks,elasticsearch,netbsd,céu",8,2016
+Catrobat,"Our apps empower teens to visually create their own apps directly on their phone","android,java,html5,web,javascript",7,2016
+FFmpeg,"Cross-platform software to convert audio and video.","c,asm,git",7,2016
+"Indic Project","Improving Information Infrastructure and Access to Knowledge in Indian languages","android,python,javascript,ruby on rails,c++",7,2016
+"jQuery Foundation","jQuery Foundation - home of jQuery, Dojo and many other JavaScript libraries","javascript,html5,css,jquery",7,2016
+NumFOCUS,"NumFOCUS promotes open source scientific software.","python,javascript,julia,r",7,2016
+"Open Bioinformatics Foundation","Supporting OSS and Open Science in the biological research community.","perl,python,ruby,java,haskell",7,2016
+"Open Source Robotics Foundation","Open source software for use in robotics research, education, and industry.","ros,gazebo",7,2016
+OpenAstronomy,"Confederation of open source projects in Astronomy","python,julia,c,numpy",7,2016
+"Sustainable Computing Research Group ( SCoRe )","SCoRe has conducted research covering various aspects of Security, Mobile & IOT.","java,android,hadoop,python,golang",7,2016
+SymPy,"Computer algebra system in Python","python,c++",7,2016
+"TEAMMATES @ National University of Singapore","An online feedback management system for education","java,app engine,javascript,css,html",7,2016
+"The LLVM Compiler Infrastructure","The LLVM Compiler Infrastructure","c,c++,llvm,clang",7,2016
+"AOSSIE - The Australian National University's Open-Source Software Innovation and Education","Research-Intensive Open-Source Projects at Australia's Leading University","scala,lisp,llvm,python,postgresql",6,2016
+BeagleBoard.org,"open hardware physical computing community with Linux","beaglebone,javascript,python,linux,c",6,2016
+"Beam Community","From distributed systems, to robust servers and language design on the Erlang VM","erlang,elixir,xmpp,beam,mqtt",6,2016
+"CCExtractor Development","The de-facto standard tool for everything related to subtitles.","c,video,ffmpeg,subtitles,linux",6,2016
+"Fedora Project","Lead the advance of Free/Open Source Software/Content as collaborative community","python,flask,postgresql,html5,javascript",6,2016
+"Health Information Systems Programme","Health information system which is being used by 47 countries across world.","java,android,javascript,reactjs,gradle",6,2016
+"Mifos Initiative","End Poverty One Line of Code at a Time","java,javascript,angularjs,android,mysql",6,2016
+"mlpack: a scalable C++ machine learning library","a scalable C++ machine learning library",c++,6,2016
+"Open Genome Informatics","Open Genome Informatics represents the efforts of many bioinformatics projects.","python,java,html/javascript,nodejs,gwt",6,2016
+openSUSE,"openSUSE Linux - The makers' choice for sysadmins, developers and desktop users","ruby on rails,angularjs,docker,linux,ruby",6,2016
+"Portland State University","Portland State University","open hardware,language-agnostic",6,2016
+QEMU,"Open source machine emulator and virtualizer","c,assembly,kvm",6,2016
+"Wikimedia Foundation","A global movement with a mission to bring free educational content to the world","php,javascript,html,css,jquery",6,2016
+"Biomedical Informatics, Emory University","Big Data for Healthcare and Biomedical Research","java,medical imaging,deep learning,hadoop,python",5,2016
+"cBioPortal for Cancer Genomics","Open source software solutions of precision medicine for cancer patients","java,javascript,web,html,big data",5,2016
+"Computational Biology @ University of Nebraska-Lincoln","Development of software technologies for biomedical research and applications.","webgl,javascript,mysql,react",5,2016
+"Gentoo Foundation","A flexible, source-based Linux distribution.","shell script,c/c++,python,perl,sql",5,2016
+"GNU Octave","GNU Octave : Free Your Numbers.","hg,c++",5,2016
+Joomla!,"A Free and Open Source CMS, Trusted By Millions for their Websites","php,css,html,javascript,jquery",5,2016
+MariaDB,"One of the most popular databases on the web with many notable users","mysql,mariadb,c,perl",5,2016
+"MIT Media Lab","Build Your own Android Apps!","java,html/javascript,android",5,2016
+"Nmap Security Scanner","Swiss Army knife of network discovery and security auditing","c/c++,lua,python,c,c++",5,2016
+"Orange – Data Mining Fruitful & Fun","A cross-platform, visual-programming tool for data mining and visualization.","python,cython,qt,machine learning",5,2016
+"OWASP Foundation","OWASP, The Open Web Application Security Project.","python,php,javascript,java,html",5,2016
+"PRISM Model Checker","PRISM is a tool for formally verifying the correctness of probabilistic systems.","java,c++",5,2016
+"Public Lab","Open hardware and software to help communities measure and analyze pollution","javascript,ruby on rails,leaflet,webrtc",5,2016
+"Red Hen Lab","Red Hen Lab: Research on Multimodal Communication","high performance computing,machine learning,opencv,audio procesing,multimodal analysis",5,2016
+Robocomp,"A framework for creating and modifying software components for robotics.","c++,python,zeroc ice,cmake,gnu/linux",5,2016
+"RTEMS Project","Open Source Deterministic Real-Time Operating System for Embedded Systems","c,python,waf,embedded systems",5,2016
+"Sage Mathematical Software System","open-source mathematical software system","python,javascript,cython,c++",5,2016
+"Scilab Enterprises","Numerical computation IDE for engineering and scientific applications","scilab,c++,java,c,fortran",5,2016
+"Sugar Labs","Learning software for children","python,javascript,gtk+",5,2016
+"The Tor Project","Anonymity, privacy, and anti-censorship software","c,javascript,golang,python,browser extensions",5,2016
+"Xapian Search Engine Library","Fast, scalable and flexible search","c++,unicode,swig,android,golang",5,2016
+BuildmLearn,"Building m-Learning applications","python,django,bootstrap,android",4,2016
+Ceph,"The Future of Storage","c/c++,python,object-storage",4,2016
+"D Foundation","The D Foundation leads development of the D Programming Language.","dlang,c++",4,2016
+GitHub,"How people build software","git,atom,node.js,ruby,c#",4,2016
+Homebrew,"Package management software for OS X.","ruby,git,osx",4,2016
+"Inclusive Design Institute","The IDI addresses the challenge of designing ICT to work for all potential users","javascript,jquery,html5,css,node.js",4,2016
+KolibriOS,"KolibriOS Project team","fasm,flat assembler,x86 assembly,i386,i586",4,2016
+Libvirt,"Stable API for easier virtualization.","c,qemu,xen,containers",4,2016
+"Liquid Galaxy Project","Liquid Galaxy Project: wraparound open-source immersion!","javascript,ros,gis,cesium",4,2016
+lowRISC,"Creating a fully open-source SoC design","verilog,fpga,chisel,c++,linux",4,2016
+"MetaBrainz Foundation","We curate data and make it freely available!","python,perl,postgresql,javascript",4,2016
+Moodle,"The world's open source learning platform","php,jquery,mysql,postgresql,javascript",4,2016
+OpenStreetMap,"OpenStreetMap - Creating and distributing free geographic data for the world.","postgis,java,ruby,javascript,opengl",4,2016
+ReactOS,"ReactOS is a free, open source, Windows compatible operating system.","c/c++,c",4,2016
+"Ruby Science Foundation","Tools for Scientific Computing in Ruby","ruby,c programming,jruby,c/c++",4,2016
+"Stony Brook University Biomedical Informatics","Biomedical Informatics at Stony Brook University","medical imaging,bioinformatics,hadoop,big data",4,2016
+strace,"linux syscall tracer","linux,c,git,shell script,make",4,2016
+"The NetBSD Foundation","of course it runs NetBSD","bsd,security,networking,c programming,kernel",4,2016
+"The STE||AR Group","The STE||AR Group - Shaping a Scalable Future","parallel processing,high performance computing,c++,cuda,opencl",4,2016
+"The syslog-ng project","Open source log management solution with over a million users worldwide.","c,java,python,big data,rust",4,2016
+"52°North Initiative for Geospatial Open Source Software GmbH","52°North works on innovative ideas and technologies in geoinformatics","javascript,java,ogc standards,web services",3,2016
+aimacode,"Code to accompany the book ""AI: A Modern Approach""","python,java,javascript",3,2016
+ASCEND,"Equation-solving software for engineering system modelling","python,c,c/c++",3,2016
+BioJS,"BioJS is an open source project that visualizes biological data using JavaScript","javascript,python",3,2016
+"Canadian Centre for Computational Genomics (C3G) - Montreal node","Analytical solutions for Next-Generation Sequencing data","python,r-project,javascript,sql,git",3,2016
+Celluloid,"Painless multi-threaded multi-core programming for Ruby.","ruby,multi-threading,multi-core,zeromq,high-resolution timers",3,2016
+coreboot,"fast and flexible Open Source firmware","c,assembly,open hardware",3,2016
+"Free and Open Source Silicon Foundation","Free and Open Source Digital Designs and their Ecosystem, EDA Tools and OpenRISC","open hardware,fpga,compiler,python,javascript",3,2016
+"Gambit - Software Tools for Game Theory","Software for Analysis of Game Theory Models",javascript,3,2016
+"Global Alliance for Genomics & Health","GA4GH develops open standards and tools for genomics to benefit human health","python,java,protobuf,sql",3,2016
+gnss-sdr,"GNSS-SDR is an open source Global Navigation Satellite Systems software receiver","c/c++,c++11,c++14,gnss",3,2016
+"GNU Mailman","Mailman is free software for managing electronic mailing lists.","python,email,django",3,2016
+"Green Navigation","Routing Service for finding the shortest, fastest and most energy efficient way.","javascript,postgresql,polymer,go,electromobility",3,2016
+"MBDyn, Department of Aerospace Science and Technology at Politecnico di Milano","MBDyn is a multidisciplinary Multibody Dynamics scientific simulation software.",c++,3,2016
+"McGill Space Institute","Center bringing together scientists doing space-related research at McGill","python,sql,databases,big data",3,2016
+"Mobile Robot Programming Toolkit (MRPT)","Mobile Robot Programming Toolkit: empowering C++ development in robotics","c++,ros,opencv,cmake,qt",3,2016
+ModSecurity,"ModSecurity cross platform web application firewall","waf,web application firewall",3,2016
+MovingBlocks,"Terasology: like an open source Minecraft - imagine the possibilities!","java,lwjgl,opengl,blender,gradle",3,2016
+MuseScore,"MuseScore: Create, play and print beautiful sheet music","qt,c/c++,qml",3,2016
+"Netfilter project","Netfilter project","firewall,linux kernel,networking",3,2016
+"Physical Web Project","The Physical Web Project develops use cases around Google's the Physical Web IoT","internet of things,beacons,python,arduino",3,2016
+"Plone Foundation","The premier python-based content management system","python,zope,javascript,rest,nosql",3,2016
+radare,"radare is a reverse engineering framework and toolset","c,rust",3,2016
+ScummVM,"ScummVM is a GSoC umbrella for game preservation projects","c++,sdl,opengl,assembly",3,2016
+"Shogun Machine Learning Toolbox","Unified and efficient Machine Learning.","c++,python,swig,cmake",3,2016
+"Soletta Project","Soletta Project is an open source framework for making IoT applications","c,python,javascript,networking,machine learning",3,2016
+TARDIS-SN,"Unravelling Cosmic Explosions in Style","python,cython,c",3,2016
+"Timelab Technologies Ltd.","We help scientists understanding information in time-series","python,javascript",3,2016
+"Urban Energy Systems Laboratory, Empa","HUES is a platform for modeling & simulation of decentralized energy systems","python,milp,gis",3,2016
+Vert.x,"Vert.x is a tool-kit for building reactive applications on the JVM.","java,reactive,javascript,groovy,micro-services",3,2016
+"VideoLAN / VLMC Project","A non-linear video editor, based on VLC technology.","opengl,c++,c,assembly,qt",3,2016
+vitrivr,"vitrivr allows you to use novel methods to search in videos","java,web,computer vision,machine learning,databases",3,2016
+"Zulip Open Source Project","Zulip: Powerful open source group chat","python,javascript,django,android,ios",3,2016
+ArchC,"ArchC is an Architecture Description Language","c++,python,archc",2,2016
+"Boston University / XIA","Crowdsourcing the future Internet","xia,c,linux kernel,advanced data structures",2,2016
+Chapel,"a Productive Parallel Programming Language","python,chapel,c,c++,high performance computing",2,2016
+"Classical Language Toolkit","NLP for the ancient world","python,javascript,java",2,2016
+CloudCV,"CloudCV - Large Scale Distribution Vision algorithms as a Cloud Service","python,javascript,lua,caffe,torch",2,2016
+"Copyleft Games","Tools, libraries, and engines to help in game development","python,opengl,c",2,2016
+Discourse,"A next-generation discussion forum.","ruby,ruby on rails,javascript,ember,docker",2,2016
+"Distributed and Unified Numerics Environment (DUNE)","DUNE is a modular toolbox for solving PDEs with grid-based methods.","c++,python,cmake",2,2016
+"Genes, Genomes and Variation","Ensembl Genome Browsers","mysql,javascript,perl",2,2016
+"GNU Radio","The Free and Open Software Radio Ecosystem","c++,python,software radio,dsp,rf",2,2016
+gRPC,"A high performance, open source, general RPC framework.","distributed systems,networking,micro-services,scalability,http/2",2,2016
+Inkscape,"Inkscape is a professional vector graphics editor for Windows, OS X, and Linux.","c++,python,svg,css,gtk+",2,2016
+Matrix.org,"An ambitious opensource project creating a new, decentralised comms ecosystem.","react,android,ios,golang,python",2,2016
+"Mixxx DJ Software","DJ Your Way, For Free. Join our friendly community of hackers, DJs, and artists!","c++11,c++,qt,audio,opengl",2,2016
+"Open Chemistry","Open source chemistry software libraries and tools","c++,opengl,python,javascript,webgl",2,2016
+"Open Detection","Open Detection is a open source project for object detection and recognition.","c/c++,cmake,opencv,pcl,caffe",2,2016
+"Open Ephys","Open-source electrophysiology","c++,juce",2,2016
+"OpenKeychain (OpenPGP for Android)","OpenKeychain: Easy PGP for Android","android,openpgp",2,2016
+ownCloud,"A safe home for all your data","javascript,php,css,html,sql",2,2016
+P2PSP.org,"Shaping the future Internet TV","python,c++,webrtc,android,ios",2,2016
+"Performance Co-Pilot","Performance Co-Pilot - system-level performance analysis toolkit","golang,ruby,java,linux kernel,javascript",2,2016
+"The Wine Project","Wine runs Windows applications on Linux, BSD, Solaris and Mac OS X.","c,opengl,directx,x11,win32",2,2016
+TimVideos.us,"TimVideos.us - FOSS event recording & streaming software and hardware.","vhdl,verilog,fpga,python,c",2,2016
+Unitex/GramLab,"Unitex/GramLab is an open source, multilingual corpus processing suite","java,c++",2,2016
+"X.Org Foundation","X Window System and related projects (Mesa, DRI, Wayland, etc.)","c,c++,opengl,vulkan,opencl",2,2016
+CVXPY,"CVXPY is a Python-embedded modeling language for convex optimization problems.",python,1,2016
+"Django Software Foundation","The web framework for perfectionists with deadlines.","python,django",1,2016
+"FOSDEM VZW","The organization that handles all aspects of the FOSDEM conference","ruby on rails,postgresql,git",1,2016
+Ganeti,"Cluster virtual server management software","python,haskell,kvm,xen,virtualization",1,2016
+Git,"fast, scalable, distributed revision control system","c,shell script,git",1,2016
+GPAC,"GPAC - Multimedia Open-Source Project","mp4,dash,mp4box,javascript,c++",1,2016
+"Jenkins Project","Jenkins is an open-source automation server","java,groovy,jenkins,css,html",1,2016
+"Oppia Foundation","Oppia is used for collaboratively building interactive and intelligent tutors.","javascript,app engine,python,css,angularjs",1,2016
+"OSU Open Source Lab","OSU Open Source Lab","python,rest,javascript,ruby",1,2016
+PLASMA-UMass,"PLASMA explores ways to make programming languages faster, safer, and easier.","javascript,c/c++,scala,go",1,2016
+Sigmah,"Open source information management software for international aid projects","java,gwt",1,2016
+"The Center for Connected Learning and Computer-Based Modeling","NetLogo: A language and IDE for programming and scientific simulations","javascript,scala,java,html5,css",1,2016
+"The Monarch Initiative","An informatics platform for translational disease research","semantic web,javascript,text mining,named entity recognition,ontologies",1,2016
+Wayland,"Wayland is a protocol for windowing systems on both desktops and embedded","opengl,wayland,c,xml,kms",1,2016
+"JSK Robotics Laboratory","JSK Robotics Laboratory / The University of Tokyo","euslisp,openhrp,openrtm,ros",0,2016
+Peragro,"Digital Assets Managed Neatly","python,blender,javascript,celery,django",0,2016
+XWiki,"Generic web platform for developing collaborative apps on the wiki paradigm","java,javascript,html5,css3,velocity",0,2016
