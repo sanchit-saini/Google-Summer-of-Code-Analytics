@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from Records import *
 
 class DatabaseHelper:
-    db_name = 'sqlite:///gsoc_records.db'
+    db_name = 'sqlite:///../Database/gsoc_records.db'
     engine = create_engine(db_name)
 
     def __init__(self):
