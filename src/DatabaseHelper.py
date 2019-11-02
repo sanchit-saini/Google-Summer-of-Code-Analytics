@@ -16,5 +16,5 @@ class DatabaseHelper:
     def insert(self, record):
         self.session.add(record)
     
-    def create_table(self):
+    def create_database(self):
         Base.metadata.create_all(self.engine)

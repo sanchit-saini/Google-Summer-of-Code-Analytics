@@ -156,7 +156,7 @@ def main(argv):
 
     links = sp.get_organization_links()
     db_helper = DatabaseHelper()
-    db_helper.create_table()
+    db_helper.create_database()
     sp.for_each_organization(links, db_helper.insert)
 
 
