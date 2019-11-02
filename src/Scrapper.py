@@ -45,18 +45,20 @@ class Scrapper:
 
     def for_each_organization(self, links, db_insert):
 
-        logger.info('Parsing and Inserting individual record into DB')
+        logger.info('Parsing and Inserting individual record in Session')
         for index in range(0, len(links)):
             link = self.base_url + links[index]
 
             self.set_soup(link)
 
             db_insert(
-                name=self.get_orgnization_name(),
-                tagline=self.get_orgnization_tagline(),
-                technologies=self.get_organization_technologies(),
-                year=self.year,
-                slots=self.get_organization_slot_count()
+                Records(
+                    self.get_orgnization_name(),
+                    self.get_organization_slot_count(),
+                    self.get_orgnization_tagline(),
+                    self.get_organization_technologies(),
+                    self.year
+                )
             )
             logger.info('\nName: %s\nTagline: %s\nTechnologies: %s\nSlots: %d\nYear: %d\n',
                             self.get_orgnization_name(), self.get_orgnization_tagline(),
@@ -154,6 +156,7 @@ def main(argv):
 
     links = sp.get_organization_links()
     db_helper = DatabaseHelper()
+    db_helper.create_table()
     sp.for_each_organization(links, db_helper.insert)
 
 

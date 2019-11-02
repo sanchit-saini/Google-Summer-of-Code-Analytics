@@ -1,23 +1,20 @@
-import mongoengine
+from sqlalchemy import Column, Integer, String, create_engine, MetaData, Table
+from sqlalchemy.orm import sessionmaker
 from Records import *
 
-
 class DatabaseHelper:
-
-    db_name = 'gsoc'
+    db_name = 'sqlite:///gsoc_records.db'
+    engine = create_engine(db_name)
 
     def __init__(self):
-        mongoengine.connect(self.db_name)
+        Session = sessionmaker(bind=self.engine)
+        self.session = Session()
 
     def __del__(self):
-        mongoengine.disconnect()
+        self.session.commit()
 
-    def insert(self, **kwds):
-
-        Records(
-            name=kwds['name'],
-            slots=kwds['slots'],
-            tagline=kwds['tagline'],
-            technologies=kwds['technologies'],
-            year=kwds['year']
-        ).save()
+    def insert(self, record):
+        self.session.add(record)
+    
+    def create_table(self):
+        Base.metadata.create_all(self.engine)
