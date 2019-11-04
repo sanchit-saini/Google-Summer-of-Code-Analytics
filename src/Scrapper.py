@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys
-import getopt
 import logging
+import argparse
 from DatabaseHelper import *
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
@@ -92,39 +92,26 @@ class Scrapper:
 
 def main(argv):
 
-    year = 0
     old_base_url_start_year = 2009
     old_base_url_end_year = 2015
     new_base_url_end_year = 2019
 
-    def usage_msg():
-        return '''\nUsage: {}  [Options]\n
-            Options:\n
-            -h,--help show this help message and exit\n
-            -d, --debug activate debug mode\n
-            -y, --year=XXXX set year to scrap data, year should be between [ {} - {} ]'''\
-        .format(argv[0], old_base_url_start_year, new_base_url_end_year)
+    arg_parser = argparse.ArgumentParser()
+    arg_parser.add_argument('--debug', '-d',
+                            action="store_true",
+                            default=False,
+                            help='activate debug mode')
+    arg_parser.add_argument('year',
+                            type=int,
+                            help='scrape records for this year, range: {} - {}'\
+                            .format(old_base_url_start_year, new_base_url_end_year))
+    args = arg_parser.parse_args()
 
-    try:
-        opts, args = getopt.getopt(argv[1:], 'hdy:', ['debug', 'year=', 'help'])
+    year = args.year
+    debug_flag = args.debug
 
-    except getopt.GetoptError:
-        logger.warning(usage_msg())
-
-    for opt, arg in opts:
-        if opt == '-h':
-            print(usage_msg())
-            exit(0)
-
-        elif opt in ('-d', '--debug'):
-            logger.setLevel(logging.DEBUG)
-
-        elif opt in ('-y', '--year'):
-            year = int(arg)
-
-    if year == 0:
-        logger.warning(usage_msg())
-        exit(0)
+    if debug_flag is True:
+        logger.setLevel(logging.DEBUG)
 
     if year < old_base_url_start_year or year > new_base_url_end_year:
         logger.warning('\nOut of year range: %s\nSupported year range : %d - %d', year, old_base_url_start_year, new_base_url_end_year )
