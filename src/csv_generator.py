@@ -3,8 +3,13 @@ import os
 import argparse
 
 arg_parser = argparse.ArgumentParser(description='Transform Database records to csv for specific year')
-arg_parser.add_argument('Year',metavar='year',type=int,help='retrieve records for this year')
-arg_parser.add_argument('--path',default='../stats/',type=str,help='generated csv file path(Default:../stats)')
+arg_parser.add_argument('Year',
+                        type=int,
+                        help='retrieve records for this year')
+arg_parser.add_argument('--path', '-p',
+                        type=str,
+                        default='../stats/',
+                        help='generated csv file path(Default:../stats)')
 args = arg_parser.parse_args()
 
 year = args.Year
