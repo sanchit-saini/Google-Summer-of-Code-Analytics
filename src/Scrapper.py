@@ -98,7 +98,7 @@ def main(argv):
 
     arg_parser = argparse.ArgumentParser()
     arg_parser.add_argument('--debug', '-d',
-                            action="store_true",
+                            action='store_true',
                             default=False,
                             help='activate debug mode')
     arg_parser.add_argument('year',
