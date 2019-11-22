@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 logging.basicConfig(format='%(module)s : %(asctime)s %(message)s')
 logger = logging.getLogger(__name__)
 
-class Scrapper:
+class Scraper:
 
     def __init__(self, base_url, year):
         self.year = int(year)
@@ -137,7 +137,7 @@ def main(argv):
             'organization_technologies_ul': 'body > main > section.page-organizations-detail__details > div > div > div:nth-child(2) > md-card > div > div:nth-child(4) > ul'
         }
 
-    sp = Scrapper(selectors['base_url'], year)
+    sp = Scraper(selectors['base_url'], year)
     sp.init_selectors(**selectors)
     sp.set_soup(selectors['url'])
 
