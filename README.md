@@ -1,5 +1,7 @@
 # Google-Summer-of-Code-Analytics
 
+[![Build Status](https://api.travis-ci.org/sanchit-saini/Google-Summer-of-Code-Analytics.svg?branch=master)](https://travis-ci.org/sanchit-saini/Google-Summer-of-Code-Analytics)
+
 Helps GSoC candidates to shortlist organization instead searching and reviewing details of organizations manually.
 Currently this project provides the csv file of every year from 2009 - 2019 which are present under the `stats` directory.
 Every csv file contains name of the organization `name`, What they do `tagline`, What technologies are they actually using `technologies`, How many slots they had in a particular year `slots`.
