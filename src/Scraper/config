@@ -1,2 +1,0 @@
-[DEFAULT]
-db = sqlite:///../Database/gsoc_records.db

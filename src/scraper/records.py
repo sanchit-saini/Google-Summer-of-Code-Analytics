@@ -1,11 +1,12 @@
-from sqlalchemy import Column, Integer, String, create_engine, MetaData, Table
+from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 
 Base = declarative_base()
 
+
 class Records(Base):
     __tablename__ = 'records'
-    index = Column(Integer,primary_key=True)
+    index = Column(Integer, primary_key=True)
     name = Column(String)
     slots = Column(Integer)
     tagline = Column(String)
